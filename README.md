@@ -10,6 +10,7 @@
 - **📱 互动式菜单**：Vue 3 + Element Plus 打造餐食/饮品分区、过敏原标签、详细营养信息与文化叙事
 - **📊 用餐反馈系统**：支持口味/口感/分量评分、剩餐原因记录、照片上传与里程积分发放
 - **🥽 AR 虚拟展示**：整合 Kivicube AR 场景，提供沉浸式菜品 3D 体验（含工具栏操作与多语言提示）
+- **🔐 会员认证系统**：支持邮箱/手机号注册登录（OTP 验证码）、JWT 鉴权、自动 Token 刷新、注册奖励积分与里程
 - **🌐 三语言切换**：完整支持繁体中文（香港）、简体中文、英文界面切换
 - **🔗 CX 整合桥接**：预留与国泰预点餐系统、Lifestyle 商城的桥接接口
 - **📚 API 文档**：drf-spectacular 自动生成完整 Swagger 文档
@@ -54,12 +55,17 @@
 CathyHackathon/
 ├─ backend/                    # Django 后端服务
 │  ├─ core/                    # 项目设置、URL 路由、CORS 配置
+│  ├─ accounts/                # 用户认证模块（注册/登录/OTP/JWT/会员信息）
 │  ├─ ai_chef/                 # AI 主厨聊天 API (DashScope 整合)
 │  ├─ menu/                    # 菜品、配料、过敏原、FAQ 数据 API
 │  ├─ chat/                    # 聊天 Session 与消息模型
 │  ├─ surveys/                 # 问卷、剩餐记录、积分、周期性反馈
 │  ├─ integrations/            # 对外系统桥接（CX 预点餐等）
 │  ├─ fixtures/                # 初始数据 (dish_menu.json, drink_menu.json 等)
+│  ├─ tests/                   # 后端测试脚本集合
+│  ├─ dish.py                  # 菜品数据辅助脚本
+│  ├─ install_relay.py         # 中继服务安装脚本
+│  ├─ test_ai_chat.py          # AI 对话功能测试脚本
 │  ├─ manage.py
 │  ├─ requirements.txt
 │  └─ db.sqlite3               # 默认数据库（开发用）
@@ -75,14 +81,19 @@ CathyHackathon/
    │  │  ├─ Survey.vue         # 用餐反馈问卷
    │  │  ├─ MyFeedback.vue     # 我的反馈记录
    │  │  ├─ Preselect.vue      # 生活精品商城导流
-   │  │  └─ Auth.vue           # 登录/注册页
+   │  │  └─ Auth.vue           # 登录/注册页（支持 OTP 验证）
    │  │
    │  ├─ components/           # 可复用组件
    │  │  ├─ AppHeader.vue      # 顶部导航栏
    │  │  ├─ AppFooter.vue      # 底部信息
    │  │  ├─ ChefChatPanel.vue  # AI 聊天面板
    │  │  ├─ DishCard.vue       # 菜品卡片
+   │  │  ├─ MemberFlightCard.vue # 会员航班卡片
    │  │  └─ LanguageSwitcher.vue # 语言切换器
+   │  │
+   │  ├─ stores/               # Pinia 状态管理
+   │  │  ├─ auth.js            # 认证 Store（JWT 管理、Token 自动刷新、注册奖励）
+   │  │  └─ index.js           # Store 入口
    │  │
    │  ├─ api/
    │  │  └─ http.js            # Axios 实例与拦截器
@@ -90,8 +101,8 @@ CathyHackathon/
    │  ├─ i18n/                 # 多语言文案
    │  │  ├─ en.json            # 英文
    │  │  ├─ zh.json            # 简体中文
-   │  │  └─zh-HK.json          # 繁体中文（香港）
-   │  │   
+   │  │  ├─ zh-HK.json         # 繁体中文（香港）
+   │  │  └─ check_i18n.py      # 多语言文案一致性检查脚本
    │  │
    │  ├─ router/
    │  │  └─ index.js           # 路由配置
@@ -195,6 +206,11 @@ npm run dev
 
 | 端点 | 方法 | 说明 |
 |------|------|------|
+| `/api/auth/register/` | POST | 用户注册（OTP 验证，返回 JWT + 奖励信息） |
+| `/api/auth/login/` | POST | 用户登录（邮箱/手机号 + 密码，返回 JWT） |
+| `/api/auth/refresh/` | POST | 刷新 Access Token |
+| `/api/auth/me/` | GET | 获取当前登录用户信息（需认证） |
+| `/api/auth/send-otp/` | POST | 发送 OTP 验证码（邮件或短信） |
 | `/api/dishes/` | GET | 获取所有菜品列表（含过敏原、配料摘要） |
 | `/api/dishes/<id>/` | GET | 获取单一菜品详细信息 |
 | `/api/allergens/` | GET | 获取过敏原主数据 |
@@ -251,9 +267,9 @@ curl -X POST http://127.0.0.1:8000/api/survey/ \
 ### 语言资源说明
 
 - `zh-HK.json` - 繁体中文（香港）**当前使用版本**
-- `zh-HK-clean.json` - 繁体中文（香港）备用/清理版（用于数据合并脚本）
 - `zh.json` - 简体中文
 - `en.json` - 英文
+- `check_i18n.py` - 多语言文案一致性检查工具（验证各语言文件键值结构是否匹配）
 
 ---
 
@@ -266,6 +282,10 @@ python manage.py test
 
 # 测试 AI 对话功能
 python test_ai_chat.py
+
+# 运行 tests/ 目录下的专项测试脚本（例如）
+python tests/test_ai_chef_menu.py
+python tests/test_delete_survey.py
 
 # 前端构建测试
 cd frontend
