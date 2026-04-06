@@ -1,0 +1,35 @@
+# 核心规则：所有文本文件统一用 LF 存储（仓库标准），拉取时自动适配系统
+* text=auto eol=lf
+
+# 代码文件（明确标记为文本，强制 LF）
+*.py text eol=lf
+*.vue text eol=lf
+*.js text eol=lf
+*.jsx text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.scss text eol=lf
+*.json text eol=lf
+*.xml text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+requirements.txt text eol=lf
+
+# 二进制文件（禁止转换，避免损坏）
+*.svg binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+
+# 特殊文件（按需添加，可选）
+# Shell 脚本必须 LF（跨系统执行友好）
+*.sh text eol=lf
+# Windows 批处理保持 CRLF（仅在本地执行）
+*.bat text eol=crlf

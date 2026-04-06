@@ -1,0 +1,57 @@
+[
+  {
+    "model": "menu.allergen",
+    "pk": 1,
+    "fields": {
+      "code": "NUTS",
+      "name_zh": "坚果",
+      "name_en": "Nuts"
+    }
+  },
+  {
+    "model": "menu.allergen",
+    "pk": 2,
+    "fields": {
+      "code": "SEAFOOD",
+      "name_zh": "海鲜",
+      "name_en": "Seafood"
+    }
+  },
+  {
+    "model": "menu.ingredient",
+    "pk": 1,
+    "fields": {
+      "name_zh": "花生",
+      "name_en": "Peanut",
+      "allergens": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "menu.ingredient",
+    "pk": 2,
+    "fields": {
+      "name_zh": "虾",
+      "name_en": "Shrimp",
+      "allergens": [
+        2
+      ]
+    }
+  },
+  {
+    "model": "menu.dish",
+    "pk": 1,
+    "fields": {
+      "name_zh": "宫保鸡丁",
+      "name_en": "Kung Pao Chicken",
+      "desc_zh": "经典川菜",
+      "desc_en": "Classic Sichuan dish",
+      "calories": 520,
+      "protein_g": 28,
+      "fat_g": 22,
+      "carbs_g": 50,
+      "video_url": ""
+    }
+  }
+]

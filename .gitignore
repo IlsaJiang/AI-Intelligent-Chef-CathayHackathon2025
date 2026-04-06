@@ -1,0 +1,201 @@
+# ==============================================
+# 基础通用文件（所有项目通用）
+# ==============================================
+# 系统垃圾文件
+.DS_Store                # Mac 系统
+Thumbs.db                # Windows 系统
+Desktop.ini              # Windows 系统配置文件
+*.tmp                    # 临时文件
+tmp/                     # 临时文件夹
+temp/                    # 临时文件夹
+*.swp                    # Vim 交换文件（编辑时生成）
+*.swo                    # Vim 交换文件（编辑时生成）
+
+# 备份文件
+*.bak
+*.backup
+*.old
+*.orig
+*~                       # 编辑器自动生成的备份文件
+
+# 日志文件
+*.log
+*.log.*
+logs/                    # 日志文件夹
+logs/*
+!logs/.gitkeep           # 若需保留空日志文件夹，可添加此规则（需手动创建.gitkeep）
+
+# 敏感文件/密钥
+*.pem                    # 证书/私钥
+*.key                    # 密钥文件
+*.crt                    # 证书文件
+.ssh/                    # SSH 配置（若项目中误放）
+.id_rsa
+.id_rsa.pub
+.env.local               # 本地环境变量（优先级高于.env）
+.env.development.local   # 开发环境本地变量
+.env.test.local          # 测试环境本地变量
+.env.production.local    # 生产环境本地变量
+.env.*.local             # 所有环境的本地变量文件（避免泄露敏感信息）
+
+# ==============================================
+# Python / Django 后端相关（适配 backend 目录）
+# ==============================================
+# 虚拟环境
+venv/
+env/
+ENV/
+.venv/
+pyenv/
+*.conda
+*.conda-env
+
+# Python 编译产物
+__pycache__/
+*.py[cod]
+*$py.class
+*.so                     # C 扩展文件
+.Python
+build/                   # 打包构建目录
+develop-eggs/
+dist/                    # 打包产物目录
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+*.whl                    # Python wheel 包（若本地构建）
+
+# Django 框架相关
+# backend/db.sqlite3       # 已注释：允许上传数据库文件到 GitHub
+backend/db.sqlite3-journal # SQLite 数据库日志文件（仍然忽略）
+backend/media/           # 用户上传文件目录（如图片、附件）
+backend/static/          # Django collectstatic 收集的静态文件
+backend/.coverage        # 测试覆盖率文件
+backend/htmlcov/         # 测试覆盖率 HTML 报告
+backend/.pytest_cache/   # Pytest 缓存
+backend/.django_cache/   # Django 缓存
+backend/*.log            # Django 日志文件
+backend/venv/            # 若后端单独创建虚拟环境，单独忽略
+backend/.env             # 后端单独的环境变量文件（若有）
+
+# 测试相关
+.pytest_cache/
+.coverage
+coverage.xml
+junit.xml
+pytest-results/
+test-results/
+
+# ==============================================
+# Vue / 前端相关（适配 frontend 目录）
+# ==============================================
+# 依赖文件夹（核心，不上传）
+frontend/node_modules/
+frontend/.pnpm-store/    # pnpm 依赖缓存
+frontend/.yarn/          # yarn 依赖缓存
+frontend/.npm/           # npm 依赖缓存
+
+# 构建产物
+frontend/dist/
+frontend/dist-ssr/
+frontend/build/
+frontend/out/
+frontend/.nuxt/          # Nuxt 框架构建目录（若使用 Nuxt）
+frontend/.vite/          # Vite 缓存目录
+frontend/.eslintcache    # ESLint 缓存
+
+# 前端环境变量（与后端区分，避免冲突）
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/.env.*.local
+
+# 前端工具日志/缓存
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+frontend/eslint-report.html
+frontend/stylelint-report.html
+
+# ==============================================
+# 编辑器/IDE 配置（避免上传本地配置）
+# ==============================================
+# PyCharm / IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+!.idea/codeStyles/       # 可选:保留团队共享的代码风格配置（删除 ! 则忽略）
+!.idea/runConfigurations/ # 可选:保留共享的运行配置
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/usage.statistics.xml
+.idea/usage.persistence.xml
+
+# VS Code
+.vscode/
+!.vscode/extensions.json  # 可选:保留推荐插件列表
+!.vscode/settings.json    # 可选:保留团队共享的设置
+!.vscode/tasks.json       # 可选:保留共享的任务配置
+!.vscode/launch.json      # 可选:保留共享的调试配置
+.vscode/*.code-workspace
+.vscode/settings.json.user
+.vscode/extensions/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+*.sublime-settings
+*.sublime-build
+
+# Visual Studio
+*.suo
+*.user
+*.sln
+*.swf
+*.cachefile
+
+# 其他编辑器
+.atom/
+.vim/
+.svn/                    # SVN 版本控制文件（若误混入 Git 仓库）
+.hg/                     # Mercurial 版本控制文件
+
+# ==============================================
+# 其他补充（按需调整）
+# ==============================================
+# 数据库相关（除了 SQLite 外的其他数据库文件）
+<<<<<<< HEAD
+# 注意: backend/db.sqlite3 已允许上传
+=======
+>>>>>>> ilsa
+*.db-journal
+*.mdb
+*.accdb
+
+# 文档相关（若不需要上传本地文档）
+docs/_build/
+docs/.doctree/
+*.pdf
+*.docx
+*.xlsx
+*.pptx
+
+# 操作系统相关
+.Linux
+.MacOSX
+.Windows

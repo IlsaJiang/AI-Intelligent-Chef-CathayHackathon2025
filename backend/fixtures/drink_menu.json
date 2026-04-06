@@ -1,0 +1,54 @@
+[
+  {
+    "model": "menu.allergen",
+    "pk": 7,
+    "fields": {
+      "code": "caffeine",
+      "name_zh": "咖啡因",
+      "name_en": "Caffeine"
+    }
+  },
+  {
+    "model": "menu.ingredient",
+    "pk": 21,
+    "fields": {
+      "name_zh": "铁观音茶叶",
+      "name_en": "Tieguanyin Tea Leaves"
+    }
+  },
+  {
+    "model": "menu.dish",
+    "pk": 3,
+    "fields": {
+      "name_zh": "铁观音",
+      "name_en": "Tieguanyin Tea",
+      "desc_zh": "铁观音，这一片来自东方的神奇树叶，不仅承载着千年的文化积淀，其制作工艺与健康价值也相得益彰。铁观音是中国传统名茶，属于青茶类（即乌龙茶），是中国十大名茶之一。它最独特之处在于其天然的兰花香和独特的“观音韵”，滋味醇厚甘鲜，回甘悠久，以“七泡有余香”而享有盛誉。铁观音主产于福建省泉州市安溪县，这里峰峦叠翠、云雾缭绕、土壤肥沃，为茶树的生长提供了得天独厚的自然环境。值得一提的是，“铁观音”既是茶名，也是茶树品种的名称。根据工艺和品质的不同，市场上的铁观音主要分为清香型、浓香型和陈香型三种，以满足不同消费者的喜好。\n\n**适合人群**\n铁观音适合日常饮食油腻、需消食解腻的人群，其茶多酚能促进脂肪代谢。脑力劳动者或需提神者也可饮用，咖啡碱能增强注意力。但失眠患者、对咖啡因敏感者及空腹时不宜多饮，以免引发心悸或胃部不适。\n\n**搭配食用建议**\n清饮可品其天然兰花香，搭配清淡茶点如米糕更佳。传统上可加少量盐冲泡，以缓解牙痛。避免与咖啡或人参同饮，以免相互作用影响效果。\n\n【文化故事】\n铁观音的起源充满了传奇色彩，在安溪流传着两种美丽的传说。一是 \"魏说\" ，相传清雍正年间，茶农魏饮虔诚信佛，梦中得观音菩萨指引，在山崖石缝间发现一株散发兰花香味的茶树，移栽培育后制成佳茗。因茶叶沉重似铁，且为观音托梦所赐，故名\"铁观音\"。二是 \"王说\" ，相传乾隆年间，安溪人王士让发现此茶，进献给乾隆皇帝，乾隆见其外形乌润结实，沉重似\"铁\"，味美香醇，便赐名\"铁观音\"。\n\n安溪的产茶历史源远流长，始于唐末，兴于明清，盛于当代。特别是宋元时期，安溪茶就作为重要的出口商品，从\"海上丝绸之路\"的起点——泉州港出发，走向世界。2008年，乌龙茶制作技艺（铁观音制作技艺）被列入第二批国家级非物质文化遗产名录。2022年，更是一个里程碑的年份，\"安溪铁观音茶文化系统\"被联合国粮农组织（FAO）认定为 \"全球重要农业文化遗产\" ，同时，其制作技艺也随\"中国传统制茶技艺及其相关习俗\"被列入联合国教科文组织人类非物质文化遗产代表作名录。这片树叶，无疑是安溪风土与安溪茶人世代智慧的结晶。\n\n【营养咨询】\n**中药功效**\n铁观音有清热降火、提神益思之效，其茶多酚可抗衰老、降血脂，并辅助调节血糖。发酵工艺形成的\"观音韵\"还能健脾消食，长期饮用有助于心血管健康。\n\n**营养价值：**\n铁观音不仅滋味迷人，其养生保健功能也备受推崇，这与其所含的丰富化学成分和独特的制作工艺密不可分。现代医学研究表明，铁观音除具有一般茶叶的保健功能外，在抗衰老、抗动脉硬化、防治糖尿病、减肥健美、防治龋齿、清热降火、提神益思以及醒酒敌烟等方面均有显著功效。这主要归功于茶叶中的茶多酚、咖啡碱、氨基酸、维生素以及多种矿物质等活性成分。例如，茶多酚和嘌呤生物碱能有效清除自由基，起到抗衰老的作用，而咖啡碱能刺激中枢神经，帮助提神益思。铁观音其丰富的营养价值与其制作时的技艺手法息息相关。\n\n**原料：**\n铁观音茶叶\n\n**制作工艺：**\n1. 采摘：铁观音的采摘不追求极嫩的芽尖，而是在嫩梢形成 \"驻芽\" 后，采摘一芽二、三叶，这时的叶片内含物质更为丰富均衡。\n2. 晒青与凉青：采摘回的鲜叶首先进行晒青，通过温和的日光照射或室内加温，使茶叶适度失水萎软，为后续的发酵做准备。随后进行凉青，使叶梗水分重新分布均匀，恢复生机。\n3. 做青（摇青与凉青）：这是铁观音品质形成的最核心环节，包括多次反复的摇青和凉青。摇青是通过机械力摩擦叶缘细胞，促使其发生酶促氧化，形成\"绿叶红镶边\"的特征。凉青则是静置使其水分继续散发。这一过程极其考验制茶师傅的经验，通过看、闻、摸来把握时机，从而初步形成铁观音独特的色、香、味。\n4. 杀青：采用高温快速炒制，终止酶的活性，固定住做青阶段形成的优良品质，并进一步激发香气。\n5. 揉捻与包揉：杀青后的茶叶通过揉捻初步成条，然后进行独特的包揉工序。茶叶用布包裹，在外部压力下滚动揉搓，使其逐渐卷缩成紧结、圆润的颗粒状外形，这就是我们常见的铁观音干茶形状（蜻蜓头、螺旋体）的由来。这个过程往往需要反复多次（初包揉、复包揉），期间穿插烘焙以去除多余水分、巩固形状和发展香气。特别是浓香型铁观音，正是在清香型的基础上，再次经过文火慢焙或炭焙而成，茶性更温，滋味更醇厚。\n\n**品鉴方法：**\n1. 温杯：用热水将茶具（盖碗或紫砂壶）烫洗一遍，提高茶具温度。\n2. 投茶：取7-8克铁观音茶叶投入茶具中。\n3. 洗茶：注入90-95℃的热水，快速倒出，起到清洗茶叶和唤醒茶叶的作用。\n4. 冲泡：再次注入热水，第一泡约15-20秒出汤，之后每泡适当延长5-10秒。\n5. 品饮：将茶汤倒入品茗杯中，细细品味其香气和滋味。",
+      "desc_en": "Tieguanyin, this magical leaf from the East, not only carries thousands of years of cultural heritage but also harmonizes craftsmanship with health benefits. Tieguanyin is a traditional Chinese tea belonging to the oolong tea category and is one of China's top ten famous teas. Its uniqueness lies in its natural orchid fragrance and distinctive \"Guanyin charm,\" offering a mellow and sweet taste with a long-lasting aftertaste, renowned for its \"fragrance that lingers for seven infusions.\" Tieguanyin is primarily produced in Anxi County, Quanzhou City, Fujian Province, where the mountainous terrain, misty clouds, and fertile soil provide an ideal natural environment for tea growth. Notably, \"Tieguanyin\" is both a tea name and a tea plant variety. Based on different processing methods and qualities, Tieguanyin in the market is mainly divided into three types: light fragrance, strong fragrance, and aged fragrance, to satisfy different consumer preferences.\n\n**Suitable For**\nTieguanyin is suitable for people with greasy daily diets who need to aid digestion and reduce油腻. Its tea polyphenols can promote fat metabolism. Those engaged in mental work or needing to stay alert can also drink it, as caffeine can enhance attention. However, people with insomnia, those sensitive to caffeine, and those drinking on an empty stomach should not consume too much to avoid palpitations or stomach discomfort.\n\n**Pairing Suggestions**\nPure brewing allows one to appreciate its natural orchid fragrance, and pairing with light tea snacks like rice cakes is even better. Traditionally, a small amount of salt can be added for brewing to relieve toothache. Avoid drinking with coffee or ginseng to prevent interactions that may affect effectiveness.\n\n[Cultural Story]\nThe origin of Tieguanyin is filled with legendary charm. In Anxi, two beautiful legends are passed down. The first is the \"Wei Story,\" which tells of tea farmer Wei Yin during the Yongzheng era of the Qing Dynasty. A devout Buddhist, he dreamed that Goddess Guanyin guided him to discover a tea bush emitting orchid fragrance in cliff crevices. After transplanting and cultivating it, he created an exquisite tea. Because the tea leaves were heavy like iron and bestowed by Goddess Guanyin in a dream, it was named \"Tieguanyin\" (Iron Goddess of Mercy). The second is the \"Wang Story,\" which tells of Wang Shilang from Anxi during the Qianlong era who discovered this tea and presented it to Emperor Qianlong. The emperor, seeing its dark, solid appearance resembling \"iron,\" with a delicious and fragrant taste, bestowed the name \"Tieguanyin\" (Iron Goddess of Mercy).\n\nAnxi's tea history is long and profound, beginning in the late Tang Dynasty, flourishing in the Ming and Qing Dynasties, and reaching its peak in modern times. Particularly during the Song and Yuan Dynasties, Anxi tea was an important export commodity that departed from Quanzhou Port, the starting point of the \"Maritime Silk Road,\" to reach the world. In 2008, the oolong tea processing technique (Tieguanyin processing technique) was listed in the second batch of national intangible cultural heritage. In 2022, a milestone year, the \"Anxi Tieguanyin Tea Culture System\" was recognized by the UN Food and Agriculture Organization (FAO) as a \"Globally Important Agricultural Heritage System,\" and its processing technique was also included in UNESCO's Representative List of the Intangible Cultural Heritage of Humanity as part of \"Traditional Chinese Tea Processing Techniques and Related Customs.\" This leaf is undoubtedly the crystallization of Anxi's terroir and the wisdom of generations of Anxi tea masters.\n\n[Nutrition Consultation]\n**Traditional Chinese Medicine Benefits**\nTieguanyin has effects of clearing heat and reducing fire, refreshing the mind and improving thinking. Its tea polyphenols can anti-age, reduce blood lipids, and help regulate blood sugar. The \"Guanyin charm\" formed by the fermentation process can also strengthen the spleen and aid digestion. Long-term consumption is beneficial to cardiovascular health.\n\n**Nutritional Value:**\nTieguanyin not only delights the palate but is also highly regarded for its health benefits, which are closely related to its rich chemical composition and unique processing techniques. Modern medical research shows that Tieguanyin, besides having general tea health functions, also has significant effects in anti-aging, anti-arteriosclerosis, diabetes prevention and treatment, weight loss and fitness, caries prevention, heat-clearing and fire-reducing, mental refreshment, and sobering up. This is mainly attributed to active ingredients in tea such as tea polyphenols, caffeine, amino acids, vitamins, and various minerals. For example, tea polyphenols and purine alkaloids can effectively eliminate free radicals, playing an anti-aging role, while caffeine can stimulate the central nervous system, helping to refresh the mind. The rich nutritional value of Tieguanyin is closely related to the craftsmanship techniques used in its production.\n\n**Ingredients:**\nTieguanyin tea leaves\n\n**Production Process:**\n1. Picking: Tieguanyin picking does not pursue the tenderest buds but picks one bud with two or three leaves after the tender shoots form \"stationary buds,\" when the leaves contain more balanced and rich substances.\n2. Withering and Cooling: The freshly picked leaves first undergo withering through gentle sunlight exposure or indoor heating, allowing moderate water loss and wilting to prepare for subsequent fermentation. This is followed by cooling, which evenly redistributes water in the leaf stems and restores vitality.\n3. Qing-making (Shaking and Cooling): This is the core process for Tieguanyin quality formation, including repeated shaking and cooling. Shaking mechanically frictionates leaf edge cells to promote enzymatic oxidation, forming the characteristic \"green leaves with red edges.\" Cooling allows continued water evaporation. This process heavily relies on the tea master's experience, judging the timing through observation, smelling, and touching, preliminarily forming Tieguanyin's unique color, fragrance, and taste.\n4. Fixation: High-temperature rapid stir-frying terminates enzyme activity, fixing the excellent qualities formed during the Qing-making stage and further stimulating aroma.\n5. Rolling and Wrapping: After fixation, the tea leaves are rolled into strips through rolling, then undergo a unique wrapping process. The tea leaves are wrapped in cloth and rolled and rubbed under external pressure, gradually contracting into a tight, rounded granular shape - the origin of Tieguanyin's common dry tea appearance (dragonfly head, spiral body). This process often requires multiple repetitions (primary and secondary wrapping), with baking interspersed to remove excess moisture, consolidate shape, and develop aroma. Particularly, strong-fragrance Tieguanyin is made by slow baking or charcoal roasting on the basis of light-fragrance type, resulting in a milder tea nature and richer taste.\n\n**Tasting Method:**\n1. Warming the cup: Rinse the tea ware (covered bowl or purple clay pot) with hot water to raise the temperature of the tea ware.\n2. Adding tea: Put 7-8 grams of Tieguanyin tea leaves into the tea ware.\n3. Rinsing: Pour in 90-95°C hot water and quickly pour it out to clean the tea leaves and awaken them.\n4. Brewing: Pour in hot water again, steep for about 15-20 seconds for the first infusion, then appropriately extend by 5-10 seconds for each subsequent infusion.\n5. Tasting: Pour the tea soup into tasting cups and savor its aroma and taste carefully.",
+      "calories": 0,
+      "protein_g": 0.0,
+      "fat_g": 0.0,
+      "carbs_g": 0.0,
+      "hero_image": "",
+      "video_url": "",
+      "allergens": [7]
+    }
+  },
+  {
+    "model": "menu.dishingredient",
+    "pk": 21,
+    "fields": {
+      "dish": 3,
+      "ingredient": 21,
+      "amount": 7.0,
+      "unit": "克"
+    }
+  },
+  {
+    "model": "menu.ingredient_allergens",
+    "pk": 4,
+    "fields": {
+      "ingredient": 21,
+      "allergen": 7
+    }
+  }
+]

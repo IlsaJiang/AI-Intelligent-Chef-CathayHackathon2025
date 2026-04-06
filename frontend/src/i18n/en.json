@@ -1,0 +1,636 @@
+{
+  "appTitle": "Cultural Dining Experience",
+  "home": "Home",
+  "menu": "Menu",
+  "survey_nav": "Feedback",
+  "my_feedback": "My",
+  "search": "Search",
+  "help": "Help & Support",
+  "notices": "Notifications",
+  "auth_toggle": "Sign In / Out",
+  "login": "Sign In / Out",
+  "logout": "Sign out",
+  "ai_entry": "Cathay AI Dining",
+  "preselect": "Lifestyle Shop",
+  "ask_placeholder": "Ask about ingredients, history, techniques…",
+  "send": "Send",
+  "calories": "Calories",
+  "protein": "Protein",
+  "fat": "Fat",
+  "carbs": "Carbohydrates",
+  "kcal": "kcal",
+  "disclaimer": "Information is for reference only and not medical advice.",
+  "view": "View",
+  "view_detail": "View Details",
+  "back": "Back",
+  "menu_title": "Featured Menu",
+  "menu_subtitle": "Explore Cathay's carefully selected specialty dishes, each a perfect fusion of culture and flavor",
+  "menu_page": {
+    "member_notice_all": "Dear {name} member, you are allergic to peanuts. Currently showing all dishes (click to filter)",
+    "member_notice_filtered": "Dear {name} member, peanut-containing dishes have been filtered out. Below are the safe dishes for you to enjoy",
+    "click_to_toggle": "Click to toggle"
+  },
+  "no_allergen_info": "No allergen information available",
+  "hero_title": "Chinese Classics · Digital Culinary Journey",
+  "hero_sub": "Digital Membership Experience · Unveiling the Oriental Culinary Realm",
+  "cta_start": "Experience Now",
+  "cta_explore": "Experience Now",
+  "cta_menu": "Browse Menu",
+  "high_ai": "AI Chef",
+  "high_culture": "Cultural Stories",
+  "high_health": "Nutrition & Wellness",
+  "high_ar": "AR Experience",
+  "filter_keyword": "Keyword",
+  "filter_allergen": "Allergens",
+  "no_allergen": "All",
+  "overview": "Overview",
+  "culture": "Culture",
+  "nutrition": "Nutrition",
+  "video": "Demo Video",
+  "rating": "Overall Rating",
+  "leftover_level": "Leftover Level",
+  "notes": "Notes",
+  "upload_leftover": "Upload Leftover Photo",
+  "upload_dish": "Upload Dish Photo",
+  "submit": "Submit",
+  "flight_no": "Flight No.",
+  "flight_date": "Flight Date",
+  "dish_id": "Dish",
+  "select_dish": "Please select a dish",
+  "bridge_desc": "Selections will be forwarded securely to the Cathay preorder system (demo).",
+  "food_section": "Food",
+  "drink_section": "Drinks",
+  "no_drinks_available": "No drinks available",
+  "leftover_photo": "Upload leftover photo",
+  "dish_photo": "Upload dish photo",
+  "home_highlights": {
+    "ai_desc": "Chat with the Cathay AI Chef for tailored dining advice.",
+    "culture_desc": "Discover the cultural stories and heritage behind every dish.",
+    "health_desc": "Review nutrition facts and allergen info for peace of mind.",
+    "ar_desc": "Immerse yourself in our innovative achievements through augmented reality"
+  },
+  "home_page": {
+    "hero_member_welcome": "Welcome aboard, {name}",
+    "hero_badge": "Exclusive for Cathay Members",
+    "hero_feature_1": "AI Recommendations",
+    "hero_feature_2": "Cultural Experience",
+    "hero_feature_3": "Miles Rewards",
+    "hero_info": "Begin your digital culinary journey",
+    "features_title": "Explore Our Features",
+    "features_subtitle": "Five core features to create the ultimate dining experience",
+    "feature_ar_title": "AR Fresh Visual Experience",
+    "feature_ar_desc": "View 360° 3D dish models through augmented reality technology for an immersive experience of dish appearance and details.",
+    "ar_step1": "Enter AR experience page",
+    "ar_step2": "Allow camera permissions",
+    "ar_step3": "Point your phone at a surface and interact with 3D dish",
+    "feature_chat_title": "AI Cultural Popularization",
+    "feature_chat_desc": "Chat freely with our professional AI Chef to ask any questions about cooking, ingredients, and culture for expert answers.",
+    "chat_step1": "Enter AI Chef chat page",
+    "chat_step2": "Input your questions or needs",
+    "chat_step3": "Receive professional answers from AI Chef",
+    "feature_menu_title": "Health Information",
+    "feature_menu_desc": "Browse the complete menu and view detailed descriptions, cultural stories, nutritional information, and allergen details for each dish.",
+    "menu_step1": "Browse menu list",
+    "menu_step2": "Click on a dish to view details",
+    "menu_step3": "Learn about culture, nutrition, and craftsmanship",
+    "feature_survey_title": "Feedback & Waste Reduction",
+    "feature_survey_desc": "Share your dining experience and rate the taste, texture, and portion size of dishes. Earn miles rewards on your first submission!",
+    "survey_step1": "Select a dish you've tried",
+    "survey_step2": "Rate taste, texture, and portion size",
+    "survey_step3": "Submit feedback and earn miles on first submission",
+    "feature_shopping_title": "Delicious Heritage",
+    "feature_shopping_desc": "Purchase ingredients, seasonings and other products related to our dishes. One-click ordering for convenient shopping.",
+    "shopping_step1": "Browse product listings",
+    "shopping_step2": "Select your favorite items",
+    "shopping_step3": "Add to cart and place order",
+    "member_card": {
+      "greeting": "Dear {name} member, welcome aboard.",
+      "member_fallback": "esteemed",
+      "member_label": "Member",
+      "intro": "Here is your latest itinerary snapshot:",
+      "from": "Origin",
+      "from_value": "Hong Kong · CX888",
+      "to": "Destination",
+      "trip_type": "Trip type",
+      "trip_types": {
+        "round": "Round trip",
+        "one_way": "One-way"
+      },
+      "cabin": "Cabin & passengers",
+      "cabin_value": "Business Class · 1 Adult",
+      "departure_time": "Departure time",
+      "arrival_time": "Arrival time",
+      "return_time": "Return flight",
+      "timeline_aria": "Flight from {from} to {to}. {progress}% completed."
+    },
+    "scroll_to_explore": "Click to start your Chinese culinary journey"
+  },
+  "languages": {
+    "zh_hk": "繁體中文",
+    "en": "English",
+    "zh_short": "简体中文",
+    "en_short": "EN"
+  },
+  "header": {
+    "travel_link": "Cathay Business Travel",
+    "logo_alt": "Cathay Cultural Dining",
+    "lang_pair": "English｜简｜繁",
+    "switch_to_en": "Switched to English",
+    "switch_to_zh": "Switched to Traditional Chinese",
+    "lang_switch_label": "Language switcher"
+  },
+  "footer": {
+    "brand": "Cathay · Cultural Dining",
+    "disclaimer": "© 2025 Demo only. Not official guidance."
+  },
+  "chat": {
+    "title": "AI Chef Chat",
+    "chef_welcome": "Hello! I'm your AI Chef. I'm delighted to introduce this dish to you. Feel free to ask me anything!",
+    "lang_switched_zh": "Interface switched to Chinese.",
+    "lang_switched_en": "Interface switched to English.",
+    "send_failed": "Message failed to send. Please try again later.",
+    "generic_error": "(The chef is unavailable right now. Please try again later.)",
+    "typing": "Chef is typing…"
+  },
+  "aichef": {
+    "hero": {
+      "badge": "Cathay Kitchen Lab",
+      "title": "Cathay AI Chef",
+      "lead": "A culinary partner that blends chef expertise, nutrition tips, and cultural tales.",
+      "highlight_1": "🍽️ Precise breakdown of ingredients, flavors, and methods",
+      "highlight_2": "🥗 Tailored nutrition pairing and wellness reminders",
+      "highlight_3": "📚 Stories and heritage behind each dish",
+      "panel_badge": "AI Chef Studio",
+      "panel_title": "Immersive Chef Library",
+      "panel_copy": "From masterclass menus to wellness cuisine, we weave craft and storytelling into inspiring dining ideas.",
+      "stat_travel": "Travel-inspired menus",
+      "stat_nutrition": "Personalized nutrition notes",
+      "stat_pairing": "Pairing inspirations"
+    },
+    "chat": {
+      "section_title": "Chat with the Chef",
+      "section_desc": "Share your ingredients, audience, or flavor mood—our chef replies with curated ideas.",
+      "quick_topics": "Quick Topics",
+      "topic_1": "Recommend one of your dishes",
+      "topic_2": "Tell me the cultural story behind your dishes",
+      "topic_3": "Are your dishes nutritious?",
+      "welcome": "Hello, I'm the Cathay AI Chef 🍳. Ask me for dish ideas, cultural stories, or nutrition tips. What shall we explore today?",
+      "offline_message": "Sorry, the AI Chef is unavailable right now. Please try again shortly.",
+      "typing_status": "AI Chef is thinking…",
+      "sending": "Sending",
+      "placeholder": "Need inspiration? e.g. \"I have chicken breast and tomatoes, what can I cook?\"",
+      "tip_label": "Tip:",
+      "tip_text": "Ask about ingredient pairing, nutrition tips, cultural stories, and more about cuisine"
+    },
+    "profile": {
+      "name": "AI Chef",
+      "desc": "Cantonese · Wellness · Wine Pairing",
+      "online": "Online"
+    },
+    "reward": {
+      "title": "Congratulations!",
+      "subtitle": "AI Chef Interaction Reward",
+      "content": "Congratulations! You've completed 3 conversations and earned {miles} miles!",
+      "note": "Rewards will be synced to your account within 24 hours. Check your account for details.",
+      "cta": "Continue Chatting"
+    }
+  },
+  "auth": {
+    "hero": {
+      "eyebrow": "Cathay Dining Club",
+      "title": "Register & Login Member",
+      "copy": "Embark on a cloud culinary journey, unlock smart digital experiences",
+      "bullet_1": "• AR immersive visuals ｜ AI chef interaction",
+      "bullet_2": "• Ingredient information ｜ Dining feedback optimization",
+      "bullet_3": "• New mall surprises",
+      "cta": "Explore Menu First"
+    },
+    "tabs": {
+      "login": "Sign in",
+      "register": "Register"
+    },
+    "login_subhead": "Use your Cathay account to continue the journey",
+    "register_subhead": "Create a Cathay account to unlock member perks",
+    "login": {
+      "identifier_label": "Phone / Email",
+      "identifier_placeholder": "Enter registered phone or email",
+      "password_label": "Password",
+      "password_placeholder": "Enter password",
+      "remember": "Stay signed in",
+      "forgot": "Forgot password?",
+      "submit": "Sign in",
+      "switch_prompt": "Need an account?",
+      "switch_cta": "Register now"
+    },
+    "register": {
+      "channel_label": "Choose a registration method",
+      "channel_phone": "Phone",
+      "channel_email": "Email",
+      "name_label": "Full name",
+      "name_placeholder": "Enter your name",
+      "phone_label": "Phone number",
+      "phone_placeholder": "Enter phone number",
+      "email_label": "Email",
+      "email_placeholder": "Enter email address",
+      "otp_label": "One-time code",
+      "otp_placeholder": "Enter 6-digit code",
+      "otp_send": "Send code",
+      "password_label": "Set password",
+      "password_placeholder": "8-20 characters, letters & numbers",
+      "agree_prefix": "I agree to the",
+      "terms": "Terms of Service",
+      "and": "and",
+      "privacy": "Privacy Policy",
+      "submit": "Create account",
+      "switch_prompt": "Already have an account?",
+      "switch_cta": "Sign in"
+    },
+    "region": {
+      "hk": "+852 Hong Kong",
+      "mo": "+853 Macao",
+      "cn": "+86 Mainland China",
+      "tw": "+886 Taiwan"
+    },
+    "messages": {
+      "login_required": "Please enter your account and password.",
+      "login_success": "Signed in successfully. Redirecting…",
+      "login_failed": "Incorrect account or password.",
+      "logout_success": "Signed out. See you soon!",
+      "name_password_required": "Please fill in your name and password.",
+      "phone_required": "Please enter your phone number.",
+      "email_required": "Please enter your email address.",
+      "otp_required": "Please enter the verification code.",
+      "agree_required": "Please agree to the terms.",
+      "register_success": "Registration complete. Logging you in…",
+      "register_failed": "Registration failed. Please try again later.",
+      "otp_sent": "Verification code sent.",
+      "otp_send_failed": "Failed to send the verification code. Please try again later."
+    },
+    "reward": {
+      "title": "Welcome Reward",
+      "subtitle": "Thanks for joining Cathay Dining Experience",
+      "content": "You have earned {miles} Asia Miles and {points} Status Points!",
+      "note": "Rewards will sync to your account within 24 hours. Check “My Points” for details.",
+      "cta": "Explore now"
+    }
+  },
+  "my_info": {
+    "title": "My Information",
+    "name": "Name",
+    "identifier": "Account",
+    "email": "Email",
+    "phone": "Phone",
+    "points_balance": "Points Balance",
+    "miles_balance": "Miles Balance",
+    "membership_tier": "Membership Tier",
+    "tiers": {
+      "diamond": "Diamond",
+      "gold": "Gold",
+      "silver": "Silver",
+      "regular": "Regular"
+    }
+  },
+  "feedback": {
+    "title": "Dish Feedback",
+    "columns": {
+      "dish": "Dish",
+      "rating": "Overall Rating",
+      "leftover_level": "Leftover Level",
+      "leftover_reason": "Reason",
+      "status": "Status",
+      "submitted_at": "Submitted At",
+      "miles": "miles",
+      "chef_response": "Chef Response",
+      "actions": "Actions"
+    },
+    "status": {
+      "received": "Received",
+      "accepted": "Accepted",
+      "rejected": "Declined",
+      "unknown": "Unknown status"
+    },
+    "reasons": {
+      "unknown": "Unknown reason"
+    },
+    "miles": {
+      "issued": "Awarded",
+      "pending": "Pending"
+    },
+    "no_records": "No feedback yet",
+    "unknown_dish": "Unknown dish",
+    "no_reply": "No reply yet",
+    "actions": {
+      "edit": "Edit",
+      "delete": "Delete",
+      "confirm_delete": "Confirm Delete"
+    },
+    "messages": {
+      "fetch_failed": "Failed to load feedback list.",
+      "update_success": "Feedback updated.",
+      "update_failed": "Update failed. Please try again.",
+      "delete_confirm": "Are you sure to delete this feedback? This action cannot be undone.",
+      "delete_warning": "Warning",
+      "delete_success": "Feedback deleted successfully",
+      "delete_failed": "Delete failed. Please try again.",
+      "already_deleted": "This feedback has been deleted or does not exist"
+    },
+    "dialog": {
+      "title": "Edit Feedback"
+    }
+  },
+  "preselectPage": {
+    "hero": {
+      "eyebrow": "Cathay Lifestyle Boutique",
+      "title": "Shop Chef-Curated Seasonings & Premium Ingredients",
+      "desc": "Cook at home and share authentic culinary culture with family and friends",
+      "new_label": "New This Season",
+      "new_product": "Mushroom & Cordyceps Soup Pack",
+      "exclusive_label": "Silver Card Exclusive",
+      "exclusive_product": "Ningbo Handmade Rice Cakes",
+      "primary_cta": "Go to shop",
+      "secondary_cta": "View latest offers",
+      "card": {
+        "badge": "Members Only",
+        "title": "Coupons Available",
+        "subtitle": "For \"Chinese Classics\" themed products",
+        "coupon_1_condition": "¥10 off ¥100",
+        "coupon_2_condition": "¥20 off ¥200",
+        "validity": "Valid for 14 days",
+        "claim_btn": "Claim Now",
+        "note": "Coupons stackable, limited to Chinese Classics series only"
+      }
+    },
+    "categories": {
+      "section_title": "Featured Categories",
+      "section_desc": "Explore more Cathay lifestyle products and enjoy quality shopping",
+      "cta": "Shop Now",
+      "travel": {
+        "title": "Travel Inspiration",
+        "desc": "Curated travel gear, luggage, and upgrades for every journey.",
+        "tag": "Travel Picks"
+      },
+      "dining": {
+        "title": "Gourmet Table",
+        "desc": "Michelin cookware, pour-over kits, and truffle treats to extend the inflight experience.",
+        "tag": "Gourmet"
+      },
+      "member": {
+        "title": "Member Privileges",
+        "desc": "Miles boosters, vouchers, and pre-orders reserved for Cathay members.",
+        "tag": "Member Only"
+      }
+    },
+    "steps": {
+      "title": "How it works",
+      "subtitle": "Three simple steps to complete your shopping",
+      "login": {
+        "title": "Sign in with Cathay",
+        "desc": "Use your Cathay / Asia Miles account to sync miles and delivery info."
+      },
+      "pick": {
+        "title": "Choose your favourites",
+        "desc": "Mix miles + cash with clear pricing and hassle-free checkout."
+      },
+      "delivery": {
+        "title": "Enjoy delivery",
+        "desc": "Multiple regions supported plus airport pick-up for seamless journeys."
+      }
+    },
+    "cta": {
+      "eyebrow": "Limited Offers",
+      "title": "Redeem the next getaway now",
+      "copy": "Link opens the Cathay Lifestyle official shop. Sign in to see new arrivals, member zones, and promotions.",
+      "button": "Start shopping"
+    }
+  },
+  "survey": {
+    "hero_title": "Dining Feedback",
+    "hero_subtitle": "Share your dining experience to help us improve our service quality. Earn miles rewards for your first submission",
+    "form_title": "Dish Review",
+    "detailed_ratings_title": "Detailed Ratings",
+    "leftover_section_title": "Leftover Information",
+    "upload_section_title": "Photo Upload (Optional)",
+    "notes_placeholder": "Please share your dining experience or suggestions...",
+    "taste_label": "Taste Rating",
+    "texture_label": "Texture Rating",
+    "quantity_label": "Portion Rating",
+    "reason_label": "Leftover Reason",
+    "taste_options": {
+      "salty": "Too salty",
+      "light": "Too light",
+      "balanced": "Balanced"
+    },
+    "texture_options": {
+      "overcooked": "Overcooked",
+      "undercooked": "Undercooked",
+      "balanced": "Balanced"
+    },
+    "quantity_options": {
+      "too_much": "Too much",
+      "just_right": "Just right",
+      "not_enough": "Not enough"
+    },
+    "leftover_reasons": {
+      "none": "Optional",
+      "taste": "Taste issue",
+      "quantity": "Portion issue",
+      "personal": "Personal reason",
+      "quality": "Quality issue"
+    },
+    "common": {
+      "not_selected": "Not selected"
+    },
+    "actions": {
+      "choose_photo": "Select photo",
+      "drag_or_click": "Drag files here or click to upload"
+    },
+    "miles": {
+      "title": "miles Reward",
+      "line_1": "First review per dish earns 100 miles.",
+      "line_2": "Each user can earn miles once per dish.",
+      "line_3": "miles can be used for gifts or prize draws."
+    },
+    "messages": {
+      "fetch_failed": "Failed to load dishes.",
+      "select_dish": "Please choose a dish.",
+      "submit_success": "Thanks for the feedback!",
+      "submit_failed": "Submission failed. Please try again.",
+      "miles_awarded": "Congrats! You earned {miles} miles.",
+      "required_fields": "Please complete all required fields",
+      "taste_required": "Please select taste rating",
+      "texture_required": "Please select texture rating",
+      "quantity_required": "Please select quantity rating"
+    },
+    "thank_you": {
+      "first_time_title": "Thank You for Your Valuable Feedback!",
+      "first_time_message": "Your opinion is very important to us. Thank you for completing the survey, you have earned {miles} miles reward!",
+      "repeat_title": "Thank You for Submitting Again!",
+      "repeat_message": "Thank you for your continued attention to our service. This submission does not earn duplicate miles rewards."
+    },
+    "feedback": {
+      "title": "Taste Survey",
+      "question": "Which new dish would you like us to launch?",
+      "placeholder": "Share your ideas…",
+      "submit": "Send suggestion",
+      "success": "Thanks for your suggestion!",
+      "error": "Suggestion failed. Please try again."
+    }
+  },
+  "dish_detail": {
+    "empty_culture": "No cultural story available.",
+    "empty_nutrition": "No nutrition information available.",
+    "empty_ingredients": "No ingredient details available.",
+    "empty_steps": "No preparation steps available.",
+    "empty_video": "No video available.",
+    "sections": {
+      "herbal_effect": "Herbal Benefits",
+      "nutrition_analysis": "Nutrition Analysis",
+      "allergens": "Allergens",
+      "possible_allergens": "Possible Allergens",
+      "eating_suggestion": "Serving Suggestions",
+      "ingredients": "Ingredients",
+      "steps": "Preparation",
+      "nutritional_value": "Nutritional Value",
+      "process": "Process",
+      "tasting": "Tasting Notes",
+      "suitable_for": "Suitable For",
+      "pairing_suggestions": "Food Pairing Suggestions"
+    }
+  },
+  "common": {
+    "cancel": "Cancel",
+    "save": "Save",
+    "confirm": "Confirm"
+  },
+  "view_ar": "View AR Demo",
+  "ar_view": "AR Demo",
+  "ar_view_title": "AR Showcase",
+  "ar_view_description": "Discover our innovations through the AR experience below",
+  "ar_loading": "Loading AR experience...",
+  "ar_unavailable_title": "AR Experience Unavailable",
+  "ar_unavailable_desc": "Unable to load AR content due to network connectivity issues or environment restrictions. AR functionality requires HTTPS to run.",
+  "ar_demo_explanation": "This is an illustration of a typical AR experience. In a real application, you would be able to interact with 3D objects through your camera.",
+  "ar_instructions_title": "Instructions",
+  "ar_instruction_step_1": "Allow camera access for the best AR experience",
+  "ar_instruction_step_2": "Point the camera at a flat surface to place AR objects",
+  "ar_instruction_step_3": "Tap on AR objects to interact with them and experience the magic of augmented reality",
+  "ar_troubleshooting_title": "Troubleshooting tips",
+  "ar_debug_info_title": "Debug info",
+  "ar_tip_1": "Ensure your browser supports WebGL and camera access",
+  "ar_tip_2": "Check if the browser has blocked camera permissions",
+  "ar_tip_3": "Verify the scene ID is correctly configured",
+  "ar_tip_4": "Try refreshing the page or clearing browser cache",
+  "ar_toolbar_reload": "Reload",
+  "ar_toolbar_fullscreen": "Fullscreen",
+  "ar_toolbar_open": "Open in new tab",
+  "back_button": "Go Back",
+  "dishes": {
+    "1": {
+      "name": "Eight Treasures Red Crab Rice",
+      "desc": "A traditional delicacy from Fuzhou, Fujian, belonging to the Min cuisine. Made with red crab (mud crab) and glutinous rice as main ingredients, accompanied by eight supplementary ingredients including ham, duck meat, pork stomach, duck gizzard, dried shrimp, bamboo shoots, peanuts, and mushrooms, steamed to perfection.\n\n**Suitable for**\nEight Treasures Red Crab Rice is suitable for those with weakened constitution, malnutrition, or requiring post-operative recovery, as it is rich in protein and various nutrients that effectively replenish energy. Additionally, those with weak spleen and stomach, poor appetite can consume it in moderation. The warming supplementation properties of glutinous rice and red crab help strengthen the spleen and stimulate appetite. However, note that red crab is cold in nature, those with weak spleen and stomach should not consume excessively, and children and those with weak digestive function should be cautious.\n\nCultural Story\nEight Treasures Red Crab Rice is not only a delicious dish but also carries the dietary culture and auspicious meanings of the Fuzhou region.\n\nRegional characteristics: It originates from Fuzhou, Fujian, taking full advantage of the abundant local supply of quality mud crabs and rich local products. Red crabs thrive in the junction between the Min River and the sea, where the unique geographical environment gives them plump meat and rich crab paste.\n\nAuspicious meaning: With the bright red shell color and rich contents of the eight treasures rice, this dish symbolizes days of flourishing and thriving, carrying meanings of great fortune and good omen. It frequently appears at New Year dinners, wedding banquets, and festival celebrations, serving as a climax dish at feasts.\n\nTraditional customs and homesickness: In some traditional families or banquets, when enjoying Eight Treasures Red Crab Rice, it is customary for the eldest at the table to be the first to move the crab shell, then others can begin eating, embodying the traditional virtue of respecting elders. For many Fuzhou people and overseas Chinese, Eight Treasures Red Crab Rice represents the taste of home—a nostalgic comfort when missing their homeland.\n\nNutritional Consultation\n**Herbal Benefits**\nRed crab (mud crab) has the functions of strengthening waist and kidneys, and promoting spleen health. Rich in trace elements, it nourishes the body; glutinous rice supplements vital energy, strengthens the spleen, and nourishes the stomach, relieving night sweats and diarrhea. Supplementary ingredients such as ham, duck, and pork stomach enhance the effects of tonifying deficiency and strengthening spleen, with the overall combination helping to improve insufficient qi and blood, weakness and fatigue.\n\n**Nutritional Value Analysis**\n\n| Nutrient | Content |\n| --- | --- |\n| Calories | 1414 kcal |\n| Protein | 65.2g |\n| Fat | 42.8g |\n| Carbohydrates | 178.3g |\n\nEight Treasures Red Crab Rice is nutritionally rich, abundant in quality protein primarily from red crab and various meat ingredients. Carbohydrates mainly come from glutinous rice, providing ample energy. Moderate fat creates a smoother texture. Contains abundant minerals such as calcium, phosphorus, iron, and vitamins A, B-complex vitamins, etc.\n\nServing suggestion: Due to higher calories, moderate consumption is recommended, best paired with light vegetables to balance nutrition. Suitable for those with high energy expenditure, but those with high blood lipids or obesity should control portions.\n\nDetailed Ingredients\n**Main Ingredients**\n\n| Ingredient | Amount |\n| --- | --- |\n| Glutinous Rice | 125g |\n| Red Crab (Mud Crab) | 750g |\n\n**Supplementary Ingredients**\n\n| Ingredient | Amount |\n| --- | --- |\n| Ham Sausage | 10g |\n| Duck Meat | 10g |\n| Pork Stomach | 10g |\n| Duck Gizzard | 10g |\n| Dried Shrimp | 5g |\n| Bamboo Shoots | 10g |\n| Fried Peanuts | 5g |\n| Fresh Shiitake Mushroom | 5g |\n\n**Seasonings**\n\n| Ingredient | Amount |\n| --- | --- |\n| Scallion | 8g |\n| Ginger | 5g |\n| Cooking Wine | 6g |\n| Light Soy Sauce | 5g |\n| White Pepper | 1g |\n| MSG | 1g |\n| Rendered Lard | 30g |\n\n**Pairing Suggestions**\nServe with ginger-vinegar sauce; the warming nature of ginger neutralizes the cold nature of red crab while enhancing the fresh taste. Pair with a cup of aged Tieguanyin tea, whose aroma cuts through richness and aids digestion, highlighting the fragrance of the glutinous rice. Avoid consuming with cold foods such as cold beverages or persimmons, as this may cause digestive discomfort.\n\nCooking Method\n1. Prepare glutinous rice: Rinse glutinous rice, soak in water for 30 minutes, drain, place in steamer basket and steam until cooked.\n2. Prepare supplementary ingredients: Steam or boil the eight supplementary ingredients—ham, duck meat, pork stomach, duck gizzard, dried shrimp, bamboo shoots, peanuts, mushrooms—until cooked, then dice them.\n3. Prepare red crab: Rinse crab thoroughly, remove gills and center, slice into pieces.\n4. Mix ingredients: Thoroughly blend the diced supplementary ingredients with cooked glutinous rice, transfer to bowl.\n5. Assemble and steam: Arrange red crab slices neatly on top of the mixed rice, add scallion whites and ginger slices, place in steamer, steam over high heat for 20 minutes.\n6. Prepare seasoning: Heat wok over high heat, add broth (stock) to boil, season with scallop essence (approximately 3g), light soy sauce, cooking wine, MSG, white pepper.\n7. Finish: Remove steamed Eight Treasures Red Crab Rice, remove scallion whites and ginger slices, drizzle with prepared seasoning sauce and serve."
+    },
+    "2": {
+      "name": "Goji & Lily Root Stir-fry",
+      "desc": "A refreshing and crisp delicacy with fresh colors and flavors. This dish highlights the tender crispness of lily root, the fresh sweetness of white lily bulb, and the mild sweetness of goji berries. Usually prepared through simple blanching or quick stir-frying, the overall flavor is light and elegant. This dish often serves as a palate-cleansing side dish at banquets, balancing the richness of main courses with its refreshing taste.\n\n**Suitable for**\nThis dish is suitable for those who experience dry mouth, itchy skin, or dry cough without phlegm during the dry autumn and winter seasons, as its moisturizing effects are significant. Those who stay up late frequently or overuse their eyes can also consume it, as the eye-brightening effects of goji berries and the calming properties of lily bulb can relieve fatigue. However, those with weak spleen and stomach should consume in moderation, as lily root and lily bulb are cooling in nature and may cause diarrhea.\n\n**Food Pairing Suggestions**\nCan be paired with spare ribs or chicken in soup to enhance nourishing effects, such as \"Lily Goji Lotus Root Soup.\" When stir-frying, preserve the original flavors of ingredients with minimal oil and salt to highlight the refreshing taste. Avoid consuming with spicy foods to prevent weakening the lung-moistening effects.\n\nCultural Story\nWhile Goji & Lily Root Stir-fry lacks specific historical legends, each ingredient carries profound cultural heritage and beautiful symbolism.\n\nLily root has a long harvesting history, anciently called lotus whip, lotus silk vegetable, or silver sprout vegetable. Li Shizhen's \"Compendium of Materia Medica\" records \"lotus silk vegetable\" as lily root. People from Hubei and Anhui especially love consuming lily root. The lotus (lily root being its tender rhizome) symbolizes \"emerging unstained from mud\" representing noble character in Chinese culture. Due to its form, lily root is often bestowed with wishes of perfect couples (藕 sounds like 偶 meaning \"couple\") and abundant offspring (due to lotus pods having many seeds).\n\nLily bulb, with its name and tightly embracing scales, has always been an auspicious symbol of harmonious marriage and family harmony in Chinese culture. It also symbolizes purity and solemnity.\n\nGoji berries have over 2000 years of culinary and medicinal history, anciently called \"celestial essence seed\" or \"longevity seed,\" highly regarded for health effects of \"lightening the body without aging, brightening eyes and strengthening the brain.\" The Book of Songs already contains records about goji berries, such as \"Zheng Feng·Jiang Zhong Zi\" saying: \"Do not break my goji tree,\" reflecting that goji berries were already planted around people's homes and integrated into daily life; \"Xiao Ya·Bei Shan\" records \"Climbing that northern mountain, gathering those goji berries,\" describing scholars picking goji berries. Goji berries are also viewed as symbols of auspiciousness, warmth, and reunion.\n\nThe combination of these ingredients not only considers flavor harmony but also integrates traditional cultural wishes for health, beautiful life, and family happiness.\n\nNutritional Consultation\n**Herbal Benefits**\nGoji berries nourish the liver and kidneys, benefit essence and brighten eyes, rich in antioxidants; lily bulb nourishes yin and moistens lungs, clears the heart and calms the spirit, relieving restless insomnia; lily root focuses on clearing heat and generating fluids, cooling blood and dispersing stasis. The three combined can synergistically moisten dryness and stop cough, improve sleep quality, especially suitable for yin-deficient constitutions.\n\n**Nutritional Value Analysis**\n\nThis dish has considerable nutritional value, combining delicious taste with wellness benefits.\n\nLotus root (lily root): Rich in carbohydrates, protein, various vitamins (such as vitamin C) and minerals (such as iron, calcium). Traditional Chinese medicine considers it to have the functions of clearing heat and cooling blood, strengthening spleen and stimulating appetite, benefiting blood and generating tissue. Lily root, as the tender form of lotus root, has a crispier texture and may have better effects in clearing heat and generating fluids.\n\nFresh lily bulb: Contains protein, fat, reducing sugars, starch, calcium, phosphorus, iron, and various vitamins. Traditional Chinese medicine believes lily bulb can nourish yin and moisten lungs, clear the heart and calm the spirit, commonly used to relieve yin-deficient dry cough, restless palpitations, insomnia and excessive dreaming.\n\nGoji berries: Rich in various vitamins and amino acids, traditional medicine considers them to have health benefits of nourishing kidneys and liver, brightening eyes. Goji berries are sweet and balanced in nature, entering the liver, kidney, and lung meridians, capable of nourishing kidneys and benefiting essence, nourishing liver and brightening eyes, moistening lungs and nourishing yin.\n\nThe entire dish, due to its light cooking method, often blanched or quickly stir-fried with minimal oil, has relatively low calories. Main nutrients come from carbohydrates and small amounts of protein, with extremely low fat content. Specific values vary depending on ingredient ratios and cooking techniques, generally consumed as a light side dish.\n\n**Potential Allergens**\nSpecial attention should be paid to lily bulb being a major potential allergen, as some individuals may have allergic reactions to proteins or alkaloids (such as colchicine) it contains. Additionally, though uncommon, any food (including goji berries and lotus root) has the potential to trigger allergies. Allergic reactions may include skin itching, redness and swelling, digestive discomfort, breathing difficulties, etc. Those with known allergies to related ingredients should avoid consumption.\n\n**Consumption Recommendations**\nThis dish is overall cooling and moistening in nature. Those with weak spleen and stomach (prone to diarrhea, cold abdominal pain) should consume in moderation. People currently experiencing cold and fever, bodily inflammation, or diarrhea should avoid eating goji berries. If any discomfort occurs after consumption, stop eating immediately.\n\nDetailed Ingredients\nPreparing Goji & Lily Root Stir-fry requires lily root approximately 200-250g, choosing fresh, white, firm pieces. Also need 1 fresh lily bulb, approximately 80-100g, choosing bulbs with plump scales and no black spots; if using dried lily bulb, pre-soak, though texture is slightly inferior. Supplementary ingredients include 10-15g goji berries, salt and sugar for seasoning, cooking oil, and optional colorful vegetables such as bell peppers or carrots.\n\nCooking Method\n1. Preparation: Clean lily root, slice diagonally into small pieces, separate lily bulb into individual scales, soak goji berries.\n2. Blanching: First blanch lily root for about 20-30 seconds, then blanch lily bulb for 10-15 seconds until edges are slightly translucent.\n3. Quick stir-fry: Heat wok with cool oil, stir-fry lily root evenly, add lily bulb and goji berries, season, drizzle sesame oil before removing from heat.\n\nKey points: Use high heat and short cooking time to maintain crispness."
+    },
+    "3": {
+      "name": "Tieguanyin Tea",
+      "desc": "Tieguanyin, this mystical leaf from the Orient, carries millennia of cultural heritage while its craftsmanship and health benefits perfectly complement each other. Tieguanyin is a traditional Chinese famous tea, belonging to the oolong tea category (Qingcha), and ranks among China's top ten famous teas.\n\nCultural Story\nThe origins of Tieguanyin are steeped in legendary tales, with two beautiful legends circulating in Anxi. The tea-producing history of Anxi stretches back to the Tang Dynasty, flourished in the Ming and Qing periods, and thrives in contemporary times.\n\nNutritional Consultation\n**Herbal Benefits**\nTieguanyin clears heat, invigorates the mind, and aids digestion. Its tea polyphenols offer anti-aging effects, help lower blood lipids, and assist in regulating blood sugar.\n\n**Nutritional Value**\nBeyond the general health benefits of tea, Tieguanyin demonstrates remarkable efficacy in anti-aging, diabetes prevention, weight management, and beauty enhancement. This is primarily attributed to active compounds in the leaves including tea polyphenols, caffeine, amino acids, vitamins, and various minerals.\n\nCraftsmanship\n1. Harvesting: Pick shoots with one leaf and two to three leaves.\n2. Sun-drying and cooling: Proper water loss and wilting prepare leaves for subsequent fermentation.\n3. Shaking and rolling: Multiple cycles of rolling and cooling gradually shape leaves.\n4. Kill-green: High-temperature rapid roasting terminates enzyme activity.\n5. Rolling and bundle-wrapping: Leaves gradually curl into tight, round, granular shapes.\n\nBrewing Method\n1. Warm the cup: Rinse the tea ware with hot water.\n2. Add tea: Place 7-8g of Tieguanyin leaves into the tea vessel.\n3. Rinse the tea: Pour 90-95°C hot water, quickly discard.\n4. Brew: Add hot water again, first infusion brews for approximately 15-20 seconds.\n5. Savor: Pour the brewed tea into tasting cups and enjoy slowly."
+    },
+    "4": {
+      "name": "Yi Yuan De Xi Reserve Chardonnay 2021",
+      "desc": "Yi Yuan De Xi Reserve Chardonnay 2021 is a flagship product showcasing the standards of premium Chinese wine. This wine is a dry white wine produced from 100% Chardonnay grapes.\n\nCultural Story\nThe naming of the De Xi Reserve series carries warm family sentiments. The name originates from De Xi, the daughter of vineyard owner Chen Fang. Yi Yuan Winery itself is a boutique estate filled with stories, co-founded by Chen Jinqiang and French partners in 1997.\n\nNutritional Consultation\n**Nutritional Value**\nBeyond sensory pleasure, Yi Yuan De Xi Reserve Chardonnay contains beneficial compounds. Moderate consumption of dry white wine offers certain nutritional value to the body, such as its antioxidant components that help combat aging.\n\nCraftsmanship\nThe grapes undergo whole-cluster pressing. Approximately 25% of the wine ages in brand-new French oak barrels for 8 months with regular stirring of the lees. Additionally, a small portion of the wine undergoes malolactic fermentation.\n\nTasting Method\n1. Temperature: Recommended serving at 8-10°C.\n2. Aeration: After opening, gently swirl to allow the wine to interact with air.\n3. Glassware: Use a medium-sized white wine glass.\n4. Food pairing: This wine pairs well with seafood, white meat, cheese, and other delicate foods."
+    }
+  },
+  "allergens": {
+    "1": {
+      "name": "Shellfish"
+    },
+    "2": {
+      "name": "Peanuts"
+    },
+    "3": {
+      "name": "Soy"
+    },
+    "4": {
+      "name": "Wheat"
+    },
+    "5": {
+      "name": "Lily Bulb"
+    },
+    "6": {
+      "name": "Sulfites"
+    },
+    "7": {
+      "name": "Caffeine"
+    },
+    "8": {
+      "name": "Alcohol"
+    }
+  },
+  "ingredients": {
+    "1": {
+      "name": "Glutinous Rice"
+    },
+    "2": {
+      "name": "Red Crab (Mud Crab)"
+    },
+    "3": {
+      "name": "Ham Sausage"
+    },
+    "4": {
+      "name": "Duck Meat"
+    },
+    "5": {
+      "name": "Pork Stomach"
+    },
+    "6": {
+      "name": "Duck Gizzard"
+    },
+    "7": {
+      "name": "Dried Shrimp"
+    },
+    "8": {
+      "name": "Bamboo Shoots"
+    },
+    "9": {
+      "name": "Fried Peanuts"
+    },
+    "10": {
+      "name": "Fresh Shiitake Mushroom"
+    },
+    "11": {
+      "name": "Scallion"
+    },
+    "12": {
+      "name": "Ginger"
+    },
+    "13": {
+      "name": "Cooking Wine"
+    },
+    "14": {
+      "name": "Light Soy Sauce"
+    },
+    "15": {
+      "name": "White Pepper"
+    },
+    "16": {
+      "name": "MSG"
+    },
+    "17": {
+      "name": "Rendered Lard"
+    },
+    "18": {
+      "name": "Lily Root"
+    },
+    "19": {
+      "name": "White Lily Bulb"
+    },
+    "20": {
+      "name": "Goji Berries"
+    },
+    "21": {
+      "name": "Tea Leaves"
+    }
+  }
+}

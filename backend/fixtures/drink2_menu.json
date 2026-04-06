@@ -1,0 +1,39 @@
+[
+  {
+    "model": "menu.allergen",
+    "pk": 6,
+    "fields": {
+      "code": "sulfites",
+      "name_zh": "亚硫酸盐",
+      "name_en": "Sulfites"
+    }
+  },
+  {
+    "model": "menu.allergen",
+    "pk": 8,
+    "fields": {
+      "code": "alcohol",
+      "name_zh": "酒精",
+      "name_en": "Alcohol"
+    }
+  },
+  {
+    "model": "menu.dish",
+    "pk": 4,
+    "fields": {
+      "name_zh": "怡园德熙珍藏霞多丽干白葡萄酒（2021）",
+      "name_en": "Grace Vineyard Tasya's Reserve Chardonnay (2021)",
+      "desc_zh": "怡园德熙珍藏霞多丽干白葡萄酒（2021）是一款能够展现中国精品葡萄酒水准的代表性产品。怡园德熙珍藏霞多丽干白葡萄酒2021年份（Grace Vineyard Tasya's Reserve Chardonnay 2021）产自中国山西省的怡园酒庄。这款酒属于干白葡萄酒类型，由100%霞多丽葡萄酿制而成。酒庄的葡萄园位于太行山和吕梁山之间，平均海拔在870-950米，沙壤土土层深厚，排水性良好，为葡萄的生长提供了优越的自然条件。这款酒在装瓶时的酒精度约为13.9% vol。\n\n【文化故事】\n“德熙珍藏”系列的命名蕴含着一份温暖的家族情感。其名称“Tasya's Reserve”来源于怡园酒庄庄主陈芳先生女儿的名字“Tasya”。这一命名方式寓意着家族声誉的传承与酿造顶级佳酿的决心，使这个系列成为了酒庄理念的象征。\n\n怡园酒庄自身也是一座充满故事的精品酒庄。它由陈进强先生与法国友人西尔万·詹威尔联合创办于1997年8月28日，并在世界著名的法国葡萄酒学者丹尼斯·布巴勒教授的协助下成立。酒庄取名“怡园”，寓意着“心旷神怡的花园”。自2002年起，陈进强之女陈芳接管酒庄，全程负责酒庄的经营管理与葡萄酒的出品。酒庄致力于通过德熙珍藏这样的系列产品，充分展现来自不同产区、不同葡萄园的葡萄品种的独立个性和独特风味。\n\n【营养咨询】\n**营养价值**\n除了愉悦感官，怡园德熙珍藏霞多丽干白葡萄酒也包含一些有益成分。适量饮用干白葡萄酒对人体有一定的营养价值，例如其含有的抗氧化成分（如SOD）有助于抵抗衰老，起到养颜美容的作用。同时，它含有的酒石酸等有机酸，具有利尿消肿的功效。干白葡萄酒还富含多种维生素和人体所需的矿物质元素。值得注意的是，它还能帮助调控血脂，降低血液中有害的低密度脂蛋白，升高有益的高密度脂蛋白。当然，这些健康益处的前提均是“适量饮用”。\n\n**原料**\n100%霞多丽葡萄\n\n**具体做法**\n这款酒的独特风味和品质，与其精细的酿造工艺密不可分。酿造这款酒的葡萄经过整串压榨。随后，约有25%的酒液会在400升的全新法国橡木桶中陈酿8个月，并且定期进行搅动酒泥的操作，这个过程能赋予葡萄酒更复杂的口感和更圆润的质地。同时，还有一小部分的酒液会经过苹果酸-乳酸发酵，这个过程可以柔化酒液中的尖酸，使口感变得更加柔和细腻。这些精心设计的工艺环节共同作用，才最终造就了这款酒细腻的口感、适中的酸度以及丰富的成熟水果香气。\n\n**品鉴方法**\n1. 温度：建议在8-10°C的温度下饮用，过高的温度会使得酒精感过于突出，过低则会抑制香气的释放。\n2. 醒酒：年轻的霞多丽干白通常不需要长时间醒酒，开瓶后稍作摇晃，让酒液与空气接触即可。\n3. 酒杯：建议使用中等大小的白葡萄酒杯，杯口略微收窄，有助于聚集香气。\n4. 配餐：这款酒适合搭配海鲜、白肉、奶酪等清淡食物，特别是贝类、鱼类和鸡肉等。\n\n总而言之，无论是其背后的家族情感、精湛的酿造技艺还是它本身展现出的优雅风味，都让它成为一款值得细细品味的中国精品葡萄酒。",
+      "desc_en": "Grace Vineyard Tasya's Reserve Chardonnay (2021) is a representative product that showcases the quality of Chinese premium wines. The 2021 vintage of Grace Vineyard Tasya's Reserve Chardonnay is produced by Grace Vineyard in Shanxi Province, China. This wine is a dry white wine made from 100% Chardonnay grapes. The vineyard is located between the Taihang Mountains and Lüliang Mountains, at an average altitude of 870-950 meters, with deep sandy soil and good drainage, providing excellent natural conditions for grape growth. The alcohol content of this wine is approximately 13.9% vol. at bottling.\n\n[Cultural Story]\nThe naming of the \"Tasya's Reserve\" series contains warm family emotions. The name \"Tasya's Reserve\" comes from the name of Mr. Chen Fang's daughter, the owner of Grace Vineyard, \"Tasya\". This naming method symbolizes the inheritance of family reputation and the determination to brew top-quality wines, making this series a symbol of the winery's philosophy.\n\nGrace Vineyard itself is a story-filled boutique winery. It was co-founded on August 28, 1997, by Mr. Chen JinQiang and his French friend Sylvain Janvier, with the assistance of the world-renowned French wine scholar Professor Denis Bubale. The winery is named \"Grace,\" symbolizing a \"delightful garden.\" Since 2002, Chen Fang, daughter of Chen JinQiang, has taken over the winery, being fully responsible for the management and wine production. The winery is committed to showcasing the independent personality and unique flavors of grape varieties from different regions and vineyards through products like Tasya's Reserve.\n\n[Nutrition Consultation]\n**Nutritional Value**\nBesides pleasing the senses, Grace Vineyard Tasya's Reserve Chardonnay also contains beneficial components. Moderate consumption of dry white wine has certain nutritional value for the human body. For example, its antioxidant components (such as SOD) help resist aging and have beautifying effects. At the same time, its tartaric acid and other organic acids have diuretic and decongestant effects. Dry white wine is also rich in various vitamins and minerals required by the human body. Notably, it can also help regulate blood lipids, reduce harmful low-density lipoprotein in the blood, and increase beneficial high-density lipoprotein. Of course, these health benefits are based on \"moderate consumption.\"\n\n**Ingredients**\n100% Chardonnay Grapes\n\n**Production Process**\nThe unique flavor and quality of this wine are inseparable from its meticulous winemaking process. The grapes for making this wine are pressed as whole clusters. Subsequently, about 25% of the wine is aged in new French oak barrels of 400 liters for 8 months, with regular lees stirring, which can give the wine more complex flavors and a rounder texture. At the same time, a small portion of the wine undergoes malolactic fermentation, which can soften the sharp acidity in the wine and make the taste more柔和细腻. These carefully designed process steps work together to ultimately create this wine's delicate texture, moderate acidity, and rich mature fruit aromas.\n\n**Tasting Method**\n1. Temperature: It is recommended to drink at a temperature of 8-10°C. Too high a temperature will make the alcohol sensation too prominent, while too low will inhibit the release of aromas.\n2. Decanting: Young Chardonnay dry whites usually don't require long decanting. Simply swirl the bottle after opening to let the wine contact with air.\n3. Wine Glass: It is recommended to use a medium-sized white wine glass with a slightly tapered rim, which helps concentrate the aromas.\n4. Food Pairing: This wine pairs well with seafood, white meat, cheese, and other light foods, especially shellfish, fish, and chicken.\n\nIn summary, whether it's the family emotions behind it, the exquisite winemaking techniques, or the elegant flavors it presents, it all makes it a Chinese premium wine worth savoring.",
+      "calories": 85,
+      "protein_g": 0.1,
+      "fat_g": 0.0,
+      "carbs_g": 2.6,
+      "hero_image": "",
+      "video_url": "",
+      "allergens": [
+        8
+      ]
+    }
+  }
+]

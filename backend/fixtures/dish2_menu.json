@@ -1,0 +1,90 @@
+[
+  {
+    "model": "menu.allergen",
+    "pk": 5,
+    "fields": {
+      "code": "lily",
+      "name_zh": "百合",
+      "name_en": "Lily Bulb"
+    }
+  },
+  {
+    "model": "menu.dish",
+    "pk": 2,
+    "fields": {
+      "name_zh": "枸杞百合伴藕带",
+      "name_en": "Lily Bulb with Lotus Root Shoots and Goji Berries",
+      "desc_zh": "这道菜色彩清新、口感爽脆清润的佳肴。它主要突出藕带的脆嫩、鲜百合的清甜以及枸杞的温和甜味，通常通过简单的焯水或快炒制成，整体风味清淡雅致。这道菜常作为宴席上的清口配菜，以其清润口感来平衡主菜的浓郁。\n\n**适合人群**\n这道菜适合秋冬干燥季节易出现口干、皮肤干痒或干咳无痰的人群，其润燥功效显著。长期熬夜、用眼过度者也可食用，枸杞的明目作用与百合的安神效果能缓解疲劳。但脾胃虚寒者需适量，因藕带和百合性偏凉，易引起腹泻。\n\n**搭配食用建议**\n可搭配排骨或鸡肉炖汤，增强滋补效果，如\"百合枸杞莲藕汤\"。清炒时保留食材原味，少油少盐以突出清爽口感。避免与辛辣食物同食，以免削弱润肺功效。\n\n【文化故事】\n枸杞百合伴藕带虽无具体历史典故，但其每种食材都承载着深厚的文化底蕴和美好寓意。\n • 藕带采食历史悠长，古时称藕鞭、藕丝菜、银苗菜。李时珍在《本草纲目》中记载的\"藕丝菜\"即是藕带。湖北和安徽人尤其喜爱食用藕带。莲（藕带为其幼嫩根状茎）在中国文化中象征 \"出淤泥而不染\" 的高洁品格，藕带因其形态，也常被赋予佳偶天成（\"藕\"与\"偶\"同音）和多子多福（因莲蓬多子）的祝愿。\n • 百合因其名和鳞片紧抱的形态，在中国文化中一直是百年好合、家庭和睦的吉祥符号。它同时也寓意着纯洁与庄严。\n • 枸杞的食用和药用历史超过2000年，古称 \"天精籽\" 、 \"长生籽\" ，以\"轻身不老、明目健脑\"的保健效果备受推崇。《诗经》中已有关于枸杞的记载，例如《郑风·将仲子》云：\"无折我树杞\"，反映了当时枸杞已种植于百姓房前屋后，融入日常生活；《小雅·北山》中的\"陟彼北山，言采其杞\"，则记述了士子采摘枸杞的场景。枸杞也被视为吉祥、温馨和团圆的象征。\n 这些食材的组合，不仅考虑了味道的协调，更融合了传统文化中对健康、美好生活、家庭幸福的美满祝愿。\n\n【营养咨询】\n**中药功效**\n枸杞能滋补肝肾、益精明目，富含抗氧化物质；百合可养阴润肺、清心安神，缓解虚烦失眠；藕带则侧重清热生津、凉血散瘀。三者结合，能协同润燥止咳、改善睡眠质量，尤其适合阴虚体质者。\n\n**营养价值分析**\n\n这道菜营养价值颇高，兼具美味与养生功效。 • 莲藕（藕带）：富含碳水化合物、蛋白质、多种维生素（如维生素C）和矿物质（如铁、钙）。中医认为其具有清热凉血、健脾开胃、益血生肌的作用。藕带作为莲藕的幼嫩形态，口感更脆嫩，清热生津的效果可能更佳。 • 鲜百合：含有蛋白质、脂肪、还原糖、淀粉、钙、磷、铁和多种维生素等。中医认为百合能养阴润肺、清心安神，常用于缓解阴虚燥咳、虚烦惊悸、失眠多梦等。 • 枸杞：富含多种维生素和氨基酸，传统医学认为其有补肾养肝、明目的保健功效。枸杞子性味甘平，归肝、肾、肺经，可补肾益精、养肝明目、润肺滋阴。 整道菜因其烹饪方式清淡，常焯水或快炒，用油量少，热量较低。主要营养素来源是碳水化物和少量蛋白质，脂肪含量极低。具体数值会因食材比例和烹饪手法而异，一般作为清淡配餐食用。\n\n**可能的过敏原**\n需要特别注意的是，百合是主要的潜在过敏原，部分人群可能对其含有的蛋白质或生物碱（如秋水仙碱）产生过敏反应。此外，虽然不常见，但任何食物（包括枸杞和莲藕）都有引发过敏的可能性。过敏反应可能包括皮肤瘙痒、红肿、消化不良、呼吸困难等。已知对相关食材过敏者应避免食用。\n\n **食用建议**\n这道菜性质总体偏凉润。脾胃虚寒（容易腹泻、腹部冷痛）的人群食用时需适量。正在感冒发烧、身体有炎症、腹泻的人最好别吃枸杞。食用后若出现任何不适，应停止食用。\n\n【详细配料】\n**配料**\n\n制作枸杞百合伴藕带需要准备以下食材： 主料需要准备藕带约200-250克，选择新鲜、洁白、捏起来紧实的为佳。还需要鲜百合1头，大约80-100克，选择鳞片饱满、无黑斑的；若用干百合需提前泡发，但口感略逊。辅料包括枸杞10-15克，使用前用清水稍加浸泡并沥干备用。为了搭配颜色，增加视觉美感，可选择准备小半个甜椒或少许胡萝卜，切成小片或条状。调料方面需要食盐适量用于调味，少许白糖用来提鲜，使味道更柔和。食用油适量用于炒制。还可准备适量蒜末增加香味，少许生姜丝用于平衡寒性并增添风味。若希望菜肴色泽更亮，汁水能包裹在食材上，可准备适量水淀粉（芡汁）。出锅前淋入几滴芝麻香油可以增加香气。\n\n\n【具体做法】\n**做法**\n\n这里介绍一种家常的清炒做法，能最大程度保持食材的原味和清脆口感： 1. 准备工作：将藕带洗净，可轻轻刮去外层薄皮（如果较嫩则无需刮皮），斜切成小段或寸段。鲜百合切去根部，掰成单片，洗净沥干。枸杞用清水稍微浸泡软后沥干。甜椒或胡萝卜切小片或条状（用于配色）。蒜切末，姜切丝（如使用）。 2. 焯水（可选但推荐）：锅中烧开水，加入少许盐和几滴油。先下入藕带焯烫约20-30秒，捞出沥干。再将百合片下入沸水中，快速焯烫10-15秒，看到边缘变得略微透明立即捞出，沥干水分。提示：焯水可以缩短翻炒时间，保持食材脆嫩，并使颜色更鲜艳。 3. 快炒成菜：热锅凉油，油温升高后（可加入蒜末、姜丝略煸香）。下入焯过水的藕带和配色蔬菜（如使用），快速翻炒均匀。加入焯过水的百合片和泡软的枸杞，快速翻炒均匀。加入适量盐和少许白糖提鲜，快速炒匀。（如勾芡）淋入调好的水淀粉，快速翻炒使汤汁略微浓稠并包裹食材。出锅前可滴入几滴芝麻香油增香，装盘即可。 关键技巧：火候要旺，整个过程要保持大火快炒，才能锁住水分，保持脆感。时间要短，百合和藕带都极易熟，尤其是焯水后，翻炒时间一定要短，否则百合容易软烂失去口感。顺序先后，枸杞最后放，稍加翻炒即可，以免烂糊影响美观和口感。",
+      "desc_en": "This dish is a refreshing and crisp delicacy. It highlights the crunchiness of lotus root shoots, the sweetness of fresh lily bulbs, and the mild sweetness of goji berries, typically prepared through simple blanching or quick stir-frying, resulting in a light and elegant flavor. This dish is often served as a palate cleanser on banquet tables, using its refreshing taste to balance the richness of the main course.\n\n**Suitable For**\nThis dish is suitable for people who experience dry mouth, skin itching, or dry cough without phlegm during the dry autumn and winter seasons, as it has significant moisturizing properties. Those who stay up late for long periods or overuse their eyes can also consume it, as goji berries' eye-nourishing effects and lily bulbs' calming properties can help relieve fatigue. However, people with spleen and stomach coldness should consume it in moderation, as lotus root shoots and lily bulbs are cooling in nature and may cause diarrhea.\n\n**Pairing Suggestions**\nIt can be paired with pork ribs or chicken in soup to enhance its nourishing effects, such as \"lily bulb goji berry lotus root soup.\" When stir-frying, retain the original flavors with less oil and salt to highlight the refreshing taste. Avoid eating it with spicy foods, as this may weaken its lung-moistening effects.\n\n[Cultural Story]\nAlthough \"Lily Bulb with Lotus Root Shoots and Goji Berries\" does not have a specific historical anecdote, each of its ingredients carries profound cultural significance and auspicious meanings:\n\n•   Lotus root shoots have a long history of consumption. In ancient times, they were called lotus rhizome, lotus thread vegetable, or silver sprout vegetable. Li Shizhen recorded \"lotus thread vegetable\" in his Compendium of Materia Medica, which refers to lotus root shoots. People in Hubei and Anhui provinces especially enjoy eating lotus root shoots. The lotus (with lotus root shoots being its tender rhizome) symbolizes the noble character of \"rising from the mud yet remaining unstained\" in Chinese culture. Due to its form, lotus root shoots are also often associated with finding one's destined partner (\"ou\" in Chinese sounds like \"couple\") and having many children and blessings (due to the many seeds in the lotus pod).\n\n•   Lilies, due to their name and tightly packed scales, have long been a symbol of \"a hundred years of harmony\" and family happiness in Chinese culture. They also symbolize purity and solemnity.\n\n•   Goji berries have over 2000 years of history in food and medicine. In ancient times, they were called \"heavenly essence seeds\" or \"longevity seeds,\" and were highly regarded for their health benefits of \"lightness and longevity, bright eyes and clear mind.\" Goji berries are mentioned in the Book of Songs, such as in \"Zheng Feng: Jiang Zhongzi\" where it says: \"Do not break my goji tree,\" reflecting how goji berries were already planted in front of and behind houses in ancient times, integrating into daily life. \"Bi Shan: North Mountain\" in the Book of Songs records scholars picking goji berries: \"Ascending that northern mountain, I pick its goji berries.\" Goji berries are also regarded as symbols of auspiciousness, warmth, and family reunion.\n\nThe combination of these ingredients not only considers flavor harmony but also integrates traditional cultural wishes for health, beautiful life, and family happiness.\n\n[Nutrition Consultation]\n**Traditional Chinese Medicine Benefits**\nGoji berries can nourish the liver and kidneys, benefit essence and improve eyesight, and are rich in antioxidants; lily bulbs can nourish yin and moisten the lungs, calm the mind and relieve restlessness and insomnia; lotus root shoots focus on clearing heat and promoting body fluid production, cooling blood and dispersing stasis. The combination of these three ingredients can work together to moisturize dryness and stop coughing, improve sleep quality, and is particularly suitable for people with yin deficiency constitution.\n\nThis dish is highly nutritious, combining deliciousness with health benefits:\n\n•   Lotus root (lotus root shoots): Rich in carbohydrates, protein, various vitamins (such as vitamin C) and minerals (such as iron and calcium). Traditional Chinese medicine believes it can clear heat and cool blood, strengthen the spleen and stimulate appetite, and nourish blood and muscles. As the tender form of lotus root, lotus root shoots have a crisp texture and may be more effective in clearing heat and generating body fluids.\n\n•   Fresh lily bulbs: Contain protein, fat, reducing sugar, starch, calcium, phosphorus, iron, and various vitamins. Traditional Chinese medicine believes lily bulbs can nourish yin and moisten the lungs, and calm the mind, often used to alleviate dry cough due to yin deficiency, restlessness, and insomnia.\n\n•   Goji berries: Rich in various vitamins and amino acids, traditional medicine believes they can nourish the liver and kidneys, improve eyesight, and nourish blood. Goji berries have a sweet and neutral nature, affecting the liver, kidney, and lung meridians, and can nourish the kidneys and essence, benefit the liver and improve eyesight, and moisten the lungs and nourish yin.\n\n⚠️ Health Precautions\n\n•   Calories and Macronutrients (Estimate): This dish is relatively low in calories, as it is prepared with light cooking methods (often blanching or quick stir-frying) and uses little oil. The main nutrients come from carbohydrates and a small amount of protein, with very low fat content. Specific values will vary depending on ingredient proportions and cooking methods, and it is generally recommended as a light side dish.\n\n•   Potential Allergens: Special attention should be paid to lily bulbs, which are a major potential allergen. Some people may have allergic reactions to the proteins or alkaloids (such as colchicine) in lilies. Additionally, although uncommon, any food (including goji berries and lotus root) can potentially cause allergies. Allergic reactions may include skin itching, redness, indigestion, or breathing difficulties. Those known to be allergic to related ingredients should avoid consumption.\n\n•   Eating Suggestions: This dish is generally cooling and moistening in nature. People with spleen and stomach coldness (prone to diarrhea, abdominal pain) should consume it in moderation. Those with colds, fever, inflammation, or diarrhea should avoid eating goji berries. If any discomfort occurs after eating, consumption should be stopped.\n\n[Detailed Ingredients]\nTo prepare a serving of \"Lily Bulb with Lotus Root Shoots and Goji Berries\" for 2-3 people, the following ingredients are needed:\n\nThe main ingredients include about 200-250g of lotus root shoots, choosing fresh, white, and firm ones. You'll also need one head of fresh lily bulb, about 80-100g, choosing bulbs with full scales and no black spots. If using dried lily bulbs, soak them in advance, though the texture will be slightly inferior. The supplementary ingredients include 10-15g of goji berries, which should be soaked in clean water and drained before use. To enhance color and visual appeal, you may optionally prepare half a sweet pepper or a small amount of carrot, cut into small pieces or strips. For seasoning, you'll need an appropriate amount of salt for flavoring, a small amount of sugar (a pinch) to enhance freshness and make the taste more mellow. An appropriate amount of cooking oil is needed for stir-frying. You may optionally prepare an appropriate amount of minced garlic to enhance flavor, and a small amount of ginger丝 to balance the cooling nature and add flavor. If you want the dish to have a brighter color and the sauce to coat the ingredients, you may optionally prepare an appropriate amount of cornstarch slurry. A few drops of sesame oil can optionally be drizzled before serving to enhance aroma.\n\n[Preparation Steps]\nHere's a home-style quick stir-fry method that maximizes the retention of the ingredients' original flavors and crisp texture:\n\n1.  Preparation: Wash the lotus root shoots and gently scrape off the outer skin (no need if very tender), then cut diagonally into small sections or pieces. Cut the fresh lily bulb at the root end and separate into individual scales, wash and drain. Soak the goji berries in clean water until soft, then drain. Cut the sweet pepper or carrot into small pieces or strips (for color). Mince the garlic and julienne the ginger (if using).\n\n2.  Blanching (optional but recommended): Bring water to boil in a pot, add a little salt and a few drops of油. First blanch the lotus root shoots for about 20-30 seconds, then remove and drain. Next, blanch the lily bulb scales in boiling water for 10-15 seconds until the edges become slightly transparent, then immediately remove and drain. Tip: Blanching can shorten stir-frying time, maintain the crisp texture of ingredients, and make the colors more vibrant.\n\n3.  Quick Stir-frying: Heat the wok with cool oil, and when the oil temperature rises (you may add minced garlic and ginger丝 to briefly sauté for aroma). Add the blanched lotus root shoots and colored vegetables (if using), and quickly stir-fry evenly. Add the blanched lily bulb scales and softened goji berries, and quickly stir-fry evenly. Add an appropriate amount of salt and a small amount of sugar to enhance freshness, and quickly stir-fry evenly. (If using cornstarch slurry) pour in the prepared cornstarch slurry and quickly stir-fry to make the sauce slightly thick and coat the ingredients. Before serving, you may drizzle a few drops of sesame oil for aroma, then plate and serve.\n\nKey techniques: The heat should be high, and the entire process should maintain high heat and quick stir-frying to lock in moisture and maintain crispness. The time should be short, as both lily bulbs and lotus root shoots cook very easily, especially after blanching. The stir-frying time must be short, otherwise the lily bulbs can easily become soft and lose their texture. The order is important - add the goji berries last and stir-fry briefly to avoid them becoming mushy, which would affect the appearance and texture.",
+      "calories": 120,
+      "protein_g": 3.5,
+      "fat_g": 2.0,
+      "carbs_g": 25.0,
+      "hero_image": "",
+      "video_url": "",
+      "allergens": [5]
+    }
+  },
+  {
+    "model": "menu.ingredient",
+    "pk": 18,
+    "fields": {
+      "name_zh": "百合",
+      "name_en": "Lily Bulb"
+    }
+  },
+  {
+    "model": "menu.ingredient",
+    "pk": 19,
+    "fields": {
+      "name_zh": "藕带",
+      "name_en": "Lotus Root Shoots"
+    }
+  },
+  {
+    "model": "menu.ingredient",
+    "pk": 20,
+    "fields": {
+      "name_zh": "枸杞",
+      "name_en": "Goji Berries"
+    }
+  },
+  {
+    "model": "menu.dishingredient",
+    "pk": 18,
+    "fields": {
+      "dish": 2,
+      "ingredient": 18,
+      "amount": 100.0,
+      "unit": "克"
+    }
+  },
+  {
+    "model": "menu.dishingredient",
+    "pk": 19,
+    "fields": {
+      "dish": 2,
+      "ingredient": 19,
+      "amount": 250.0,
+      "unit": "克"
+    }
+  },
+  {
+    "model": "menu.dishingredient",
+    "pk": 20,
+    "fields": {
+      "dish": 2,
+      "ingredient": 20,
+      "amount": 15.0,
+      "unit": "克"
+    }
+  },
+  {
+    "model": "menu.ingredient_allergens",
+    "pk": 3,
+    "fields": {
+      "ingredient": 18,
+      "allergen": 5
+    }
+  }
+]

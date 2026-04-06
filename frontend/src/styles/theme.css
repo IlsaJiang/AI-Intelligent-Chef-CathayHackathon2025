@@ -1,0 +1,51 @@
+:root{
+  --brand-primary: #0f5e5e;
+  --brand-secondary: #8fbab3;
+  --text-primary: #1f2937;
+  --bg: #f8fafc;
+  --card: #ffffff;
+  --accent: #2c7a7b;
+}
+*{ box-sizing: border-box; }
+body{ margin:0; background: var(--bg); color: var(--text-primary); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Noto Sans CJK SC', 'Microsoft YaHei', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+.card{ background: var(--card); border-radius: 14px; box-shadow: 0 4px 16px rgba(0,0,0,.06); padding: 12px; }
+.brand-btn{ background: var(--brand-primary); color: #fff; border: none; border-radius: 999px; padding: 10px 18px; cursor: pointer; }
+.brand-link{ color: var(--accent); text-decoration: none; }
+input, select{ padding:8px 10px; border:1px solid #ddd; border-radius:8px; }
+.el-card { border-radius: 14px !important; }
+.el-button.is-round { padding: 8px 16px; }
+/* —— Cathay 官方感色板 —— */
+:root{
+  --brand-primary: #00645F;   /* 主绿 */
+  --brand-secondary: #1D828F; /* 补色蓝绿 */
+  --gold: #C6A46A;            /* 金色强调 */
+  --text-primary: #0f172a;    /* 深灰蓝 */
+  --bg: #f7f8f9;              /* 温和浅灰 */
+  --card: #ffffff;
+}
+
+/* 全局微调 */
+a { color: var(--brand-secondary); }
+.el-button.el-button--primary {
+  background: var(--brand-primary); border-color: var(--brand-primary);
+}
+.el-card { border-radius: 14px !important; }
+.el-message { font-weight: 600; }
+
+/* 页面栅格通用 */
+.section { margin: 20px 0; }
+.section-title { font-size: 20px; font-weight: 800; margin-bottom: 10px; }
+:root{
+  --brand-primary:#00645F;
+  --brand-secondary:#1D828F;
+  --gold:#C6A46A;
+  --text-primary:#0c3342;
+  --bg:#f7f8f9;
+  --card:#ffffff;
+}
+body{ background:var(--bg); color:var(--text-primary); }
+a{ color:var(--brand-secondary); }
+.el-button.el-button--primary{ background:var(--brand-primary); border-color:var(--brand-primary); }
+.el-card{ border-radius:14px !important; }
+.section{ margin:28px 0; }
+.section-title{ font-size:22px; font-weight:800; margin-bottom:12px; }

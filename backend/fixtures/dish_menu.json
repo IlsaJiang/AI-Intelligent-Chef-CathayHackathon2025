@@ -1,0 +1,401 @@
+[
+  {
+    "model": "menu.allergen",
+    "pk": 1,
+    "fields": {
+      "code": "shellfish",
+      "name_zh": "甲壳类动物",
+      "name_en": "Shellfish"
+    }
+  },
+  {
+    "model": "menu.allergen",
+    "pk": 2,
+    "fields": {
+      "code": "peanuts",
+      "name_zh": "花生",
+      "name_en": "Peanuts"
+    }
+  },
+  {
+    "model": "menu.allergen",
+    "pk": 3,
+    "fields": {
+      "code": "soy",
+      "name_zh": "大豆",
+      "name_en": "Soy"
+    }
+  },
+  {
+    "model": "menu.allergen",
+    "pk": 4,
+    "fields": {
+      "code": "wheat",
+      "name_zh": "小麦",
+      "name_en": "Wheat"
+    }
+  },
+  {
+    "model": "menu.ingredient",
+    "pk": 1,
+    "fields": {
+      "name_zh": "糯米",
+      "name_en": "Glutinous Rice"
+    }
+  },
+  {
+    "model": "menu.ingredient",
+    "pk": 2,
+    "fields": {
+      "name_zh": "红鲟（青蟹）",
+      "name_en": "Red Crab (Mud Crab)"
+    }
+  },
+  {
+    "model": "menu.ingredient",
+    "pk": 3,
+    "fields": {
+      "name_zh": "火腿肠",
+      "name_en": "Ham Sausage"
+    }
+  },
+  {
+    "model": "menu.ingredient",
+    "pk": 4,
+    "fields": {
+      "name_zh": "鸭肉",
+      "name_en": "Duck Meat"
+    }
+  },
+  {
+    "model": "menu.ingredient",
+    "pk": 5,
+    "fields": {
+      "name_zh": "猪肚",
+      "name_en": "Pork Stomach"
+    }
+  },
+  {
+    "model": "menu.ingredient",
+    "pk": 6,
+    "fields": {
+      "name_zh": "鸭肫",
+      "name_en": "Duck Gizzard"
+    }
+  },
+  {
+    "model": "menu.ingredient",
+    "pk": 7,
+    "fields": {
+      "name_zh": "虾米",
+      "name_en": "Dried Shrimp"
+    }
+  },
+  {
+    "model": "menu.ingredient",
+    "pk": 8,
+    "fields": {
+      "name_zh": "竹笋",
+      "name_en": "Bamboo Shoots"
+    }
+  },
+  {
+    "model": "menu.ingredient",
+    "pk": 9,
+    "fields": {
+      "name_zh": "炸花生仁",
+      "name_en": "Fried Peanuts"
+    }
+  },
+  {
+    "model": "menu.ingredient",
+    "pk": 10,
+    "fields": {
+      "name_zh": "鲜香菇",
+      "name_en": "Fresh Shiitake Mushrooms"
+    }
+  },
+  {
+    "model": "menu.ingredient",
+    "pk": 11,
+    "fields": {
+      "name_zh": "大葱",
+      "name_en": "Scallion"
+    }
+  },
+  {
+    "model": "menu.ingredient",
+    "pk": 12,
+    "fields": {
+      "name_zh": "姜",
+      "name_en": "Ginger"
+    }
+  },
+  {
+    "model": "menu.ingredient",
+    "pk": 13,
+    "fields": {
+      "name_zh": "料酒",
+      "name_en": "Cooking Wine"
+    }
+  },
+  {
+    "model": "menu.ingredient",
+    "pk": 14,
+    "fields": {
+      "name_zh": "白酱油",
+      "name_en": "Light Soy Sauce"
+    }
+  },
+  {
+    "model": "menu.ingredient",
+    "pk": 15,
+    "fields": {
+      "name_zh": "胡椒",
+      "name_en": "Pepper"
+    }
+  },
+  {
+    "model": "menu.ingredient",
+    "pk": 16,
+    "fields": {
+      "name_zh": "味精",
+      "name_en": "MSG"
+    }
+  },
+  {
+    "model": "menu.ingredient",
+    "pk": 17,
+    "fields": {
+      "name_zh": "猪油",
+      "name_en": "Lard"
+    }
+  },
+  {
+    "model": "menu.dish",
+    "pk": 1,
+    "fields": {
+      "name_zh": "八宝红鲟饭",
+      "name_en": "Eight Treasures Red Crab Rice",
+      "desc_zh": "福建福州的传统名点，属于闽菜系福州菜。以红鲟（青蟹）和糯米为主料，搭配火腿、鸭肉、猪肚、鸭肫、虾米、竹笋、花生仁、香菇等八种辅料蒸制而成，味道咸鲜软糯，营养丰富，寓意美好。\n\n**适合人群**\n八宝红鲟饭适合体质虚弱、营养不良或需要术后调理的人群食用，因其富含蛋白质和多种营养素，能有效补充体力。此外，脾胃虚寒、食欲不振者也可适量食用，糯米和红鲟的温补特性有助于健脾开胃。但需注意，红鲟性寒，脾胃虚寒者不宜过量，且儿童及消化功能较弱者应谨慎食用。\n\n【文化故事】\n八宝红鲟饭不仅是一道美食，更承载着福州地区的饮食文化和美好寓意。\n\n地域特色：它源自福建福州，充分利用了当地沿海盛产优质青蟹（红鲟）和丰富物产的优势。红鲟多生长于闽江口的江水与海水交界处，特殊的地理环境让其肉质饱满，蟹膏肥美。\n\n吉祥寓意：因其红鲟壳色红亮，八宝饭内容丰富，这道菜象征着日子\"红红火火、蒸蒸日上\"，寓意鸿运当头、吉祥如意。它常出现在年夜饭、婚宴、节庆等重要场合，是宴席上的一道压轴大菜。\n\n传统礼仪与乡愁记忆：在一些传统家庭或宴席上，享用八宝红鲟饭时，通常要由席中的长者率先挪开红鲟壳，然后众人才能动筷，这体现了尊老的传统美德。对于许多离乡的福州人和华侨来说，八宝红鲟饭是家乡味道的代表，是思念故乡时的一种情感寄托。\n\n【营养咨询】\n**中药功效**\n红鲟（青蟹）具有壮腰补肾、消积健脾的功效，其富含的微量元素能滋补身体；糯米则能补中益气、健脾养胃，缓解虚汗与腹泻。辅料中的火腿、鸭肉、猪肚等可增强补虚损、健脾胃的作用，整体搭配有助于改善气血不足、体虚乏力等问题。\n\n**营养价值分析**\n\n| 营养成分 | 含量 |\n| --- | --- |\n| 热量 | 1414千卡 |\n| 蛋白质 | 65.2克 |\n| 脂肪 | 42.8克 |\n| 碳水化合物 | 178.3克 |\n\n八宝红鲟饭营养丰富，富含优质蛋白质，主要来源于红鲟和各种肉类配料。碳水化合物主要来自糯米，提供充足的能量。适量的脂肪使口感更加香滑。含有丰富的矿物质如钙、磷、铁和维生素A、B族维生素等。\n\n食用建议：由于热量较高，建议适量食用，可搭配清淡蔬菜一起食用，以平衡营养。适合体力消耗较大的人群食用，但高血脂、肥胖人群应适量控制。\n\n【详细配料】\n**主料**\n\n| 食材 | 用量 |\n| --- | --- |\n| 糯米 | 125克 |\n| 红鲟（青蟹） | 750克 |\n\n**辅料**\n\n| 食材 | 用量 |\n| --- | --- |\n| 火腿肠 | 10克 |\n| 鸭肉 | 10克 |\n| 猪肚 | 10克 |\n| 鸭肫 | 10克 |\n| 虾米 | 5克 |\n| 竹笋 | 10克 |\n| 炸花生仁 | 5克 |\n| 鲜香菇 | 5克 |\n\n**调料**\n\n| 食材 | 用量 |\n| --- | --- |\n| 大葱 | 8克 |\n| 姜 | 5克 |\n| 料酒 | 6克 |\n| 白酱油 | 5克 |\n| 胡椒 | 1克 |\n| 味精 | 1克 |\n| 猪油（炼制） | 30克 |\n\n**搭配食用建议**\n食用时可佐以姜醋汁，姜的温性可中和红鲟的寒性，同时提升鲜味。搭配一杯陈年铁观音茶，其茶香能解腻消食，并突出糯米的香气。需避免与寒凉食物如冷饮、柿子等同食，以免引起肠胃不适。\n\n【具体做法】\n1. 准备糯米：将糯米洗净，在清水中浸泡30分钟，然后沥干水分，放入笼屉中蒸熟备用。\n2. 处理辅料：将火腿、鸭肉、猪肚、鸭肫、虾米、竹笋、花生仁、香菇等八种辅料分别蒸熟或煮熟后，切成小丁。\n3. 处理红鲟：将红鲟清洗干净，除去鲟鳃和脐，切成片状。\n4. 混合食材：把切好的八种辅料丁与蒸熟的糯米饭搅拌均匀，然后装入碗中。\n5. 组合蒸制：在拌好的八宝饭上整齐地排上红鲟片，加上葱白和姜片，放入蒸笼，用旺火蒸20分钟。\n6. 制作调味汁：将锅置于旺火上，加入上汤（高汤）烧沸，加入干贝汁约3克、白酱油、料酒、味精、胡椒粉等调味。\n7. 成菜：将蒸好的八宝红鲟饭取出，拣去葱白和姜片，最后淋上调好的调味汁即可。",
+      "desc_en": "A traditional delicacy from Fuzhou, Fujian, belonging to the Min cuisine. Made with red crab (mud crab) and glutinous rice as main ingredients, accompanied by eight supplementary ingredients including ham, duck meat, pork stomach, duck gizzard, dried shrimp, bamboo shoots, peanuts, and mushrooms, steamed to perfection. It has a savory and soft texture, rich in nutrition, and carries auspicious meanings.\n\n[Cultural Story]\nEight Treasures Red Crab Rice is not only a delicacy but also carries the culinary culture and auspicious meanings of Fuzhou region.\n\nRegional Characteristics: Originating from Fuzhou, Fujian, it makes full use of the local coastal area's abundant mud crabs (red crabs) and rich produce. Red crabs grow mostly at the intersection of river and sea water at the Min River estuary, where the special geographical environment results in plump meat and rich crab roe.\n\nAuspicious Symbolism: With its bright red crab shell and rich eight-treasure rice content, this dish symbolizes a \"prosperous and thriving\" life, representing good fortune and auspiciousness. It commonly appears at important occasions like New Year's Eve dinner, wedding banquets, and festivals, serving as a finale dish at banquets.\n\nTraditional Etiquette and Nostalgic Memory: In traditional families or banquets, when enjoying Eight Treasures Red Crab Rice, it's customary for the eldest at the table to first remove the crab shell before others can start eating, reflecting the traditional virtue of respecting elders. For many Fuzhou people and overseas Chinese, Eight Treasures Red Crab Rice represents the taste of home and serves as an emotional anchor when missing their hometown.\n\n[Nutrition Consultation]\n**Nutritional Value Analysis**\n\n| Nutrient | Amount |\n| --- | --- |\n| Calories | 1414 kcal |\n| Protein | 65.2g |\n| Fat | 42.8g |\n| Carbohydrates | 178.3g |\n\nEight Treasures Red Crab Rice is rich in nutrients, containing high-quality protein mainly from red crab and various meat ingredients. Carbohydrates mainly come from glutinous rice, providing sufficient energy. Moderate fat content makes the texture more fragrant and smooth. Rich in minerals such as calcium, phosphorus, iron, and vitamins A and B-complex.\n\nEating Suggestions: Due to its high calorie content, it is recommended to eat in moderation. Can be paired with light vegetables for balanced nutrition. Suitable for people with high physical activity, but people with high blood lipids and obesity should control portions.\n\n[Detailed Ingredients]\n**Main Ingredients**\n\n| Ingredient | Amount |\n| --- | --- |\n| Glutinous Rice | 125g |\n| Red Crab (Mud Crab) | 750g |\n\n**Supplementary Ingredients**\n\n| Ingredient | Amount |\n| --- | --- |\n| Ham Sausage | 10g |\n| Duck Meat | 10g |\n| Pork Stomach | 10g |\n| Duck Gizzard | 10g |\n| Dried Shrimp | 5g |\n| Bamboo Shoots | 10g |\n| Fried Peanuts | 5g |\n| Fresh Shiitake Mushrooms | 5g |\n\n**Seasonings**\n\n| Ingredient | Amount |\n| --- | --- |\n| Scallion | 8g |\n| Ginger | 5g |\n| Cooking Wine | 6g |\n| Light Soy Sauce | 5g |\n| Pepper | 1g |\n| MSG | 1g |\n| Lard (refined) | 30g |\n\n[Preparation Steps]\n1. Prepare glutinous rice: Wash the glutinous rice, soak in water for 30 minutes, drain, and steam in a steamer until cooked.\n2. Process supplementary ingredients: Steam or cook the ham, duck meat, pork stomach, duck gizzard, dried shrimp, bamboo shoots, peanuts, and mushrooms separately, then dice them.\n3. Process red crab: Clean the red crab, remove gills and navel, and cut into slices.\n4. Mix ingredients: Mix the diced supplementary ingredients with the cooked glutinous rice, then place in a bowl.\n5. Assemble and steam: Arrange the crab slices neatly on the mixed eight-treasure rice, add scallion and ginger slices, place in a steamer, and steam over high heat for 20 minutes.\n6. Make seasoning sauce: Heat a wok over high heat, bring stock (broth) to boil, add about 3g dried scallop juice, light soy sauce, cooking wine, MSG, and pepper to taste.\n7. Finalize: Remove the steamed Eight Treasures Red Crab Rice, remove scallion and ginger slices, and finally drizzle with the prepared seasoning sauce.",
+      "calories": 1414,
+      "protein_g": 65.2,
+      "fat_g": 42.8,
+      "carbs_g": 178.3,
+      "hero_image": "",
+      "video_url": "https://example.com/babaofan-demo-video.mp4",
+      "allergens": [1, 2, 3, 4]
+    }
+  },
+  {
+    "model": "menu.dishingredient",
+    "pk": 1,
+    "fields": {
+      "dish": 1,
+      "ingredient": 1,
+      "amount": 125.0,
+      "unit": "克"
+    }
+  },
+  {
+    "model": "menu.dishingredient",
+    "pk": 2,
+    "fields": {
+      "dish": 1,
+      "ingredient": 2,
+      "amount": 750.0,
+      "unit": "克"
+    }
+  },
+  {
+    "model": "menu.dishingredient",
+    "pk": 3,
+    "fields": {
+      "dish": 1,
+      "ingredient": 3,
+      "amount": 10.0,
+      "unit": "克"
+    }
+  },
+  {
+    "model": "menu.dishingredient",
+    "pk": 4,
+    "fields": {
+      "dish": 1,
+      "ingredient": 4,
+      "amount": 10.0,
+      "unit": "克"
+    }
+  },
+  {
+    "model": "menu.dishingredient",
+    "pk": 5,
+    "fields": {
+      "dish": 1,
+      "ingredient": 5,
+      "amount": 10.0,
+      "unit": "克"
+    }
+  },
+  {
+    "model": "menu.dishingredient",
+    "pk": 6,
+    "fields": {
+      "dish": 1,
+      "ingredient": 6,
+      "amount": 10.0,
+      "unit": "克"
+    }
+  },
+  {
+    "model": "menu.dishingredient",
+    "pk": 7,
+    "fields": {
+      "dish": 1,
+      "ingredient": 7,
+      "amount": 5.0,
+      "unit": "克"
+    }
+  },
+  {
+    "model": "menu.dishingredient",
+    "pk": 8,
+    "fields": {
+      "dish": 1,
+      "ingredient": 8,
+      "amount": 10.0,
+      "unit": "克"
+    }
+  },
+  {
+    "model": "menu.dishingredient",
+    "pk": 9,
+    "fields": {
+      "dish": 1,
+      "ingredient": 9,
+      "amount": 5.0,
+      "unit": "克"
+    }
+  },
+  {
+    "model": "menu.dishingredient",
+    "pk": 10,
+    "fields": {
+      "dish": 1,
+      "ingredient": 10,
+      "amount": 5.0,
+      "unit": "克"
+    }
+  },
+  {
+    "model": "menu.dishingredient",
+    "pk": 11,
+    "fields": {
+      "dish": 1,
+      "ingredient": 11,
+      "amount": 8.0,
+      "unit": "克"
+    }
+  },
+  {
+    "model": "menu.dishingredient",
+    "pk": 12,
+    "fields": {
+      "dish": 1,
+      "ingredient": 12,
+      "amount": 5.0,
+      "unit": "克"
+    }
+  },
+  {
+    "model": "menu.dishingredient",
+    "pk": 13,
+    "fields": {
+      "dish": 1,
+      "ingredient": 13,
+      "amount": 6.0,
+      "unit": "克"
+    }
+  },
+  {
+    "model": "menu.dishingredient",
+    "pk": 14,
+    "fields": {
+      "dish": 1,
+      "ingredient": 14,
+      "amount": 5.0,
+      "unit": "克"
+    }
+  },
+  {
+    "model": "menu.dishingredient",
+    "pk": 15,
+    "fields": {
+      "dish": 1,
+      "ingredient": 15,
+      "amount": 1.0,
+      "unit": "克"
+    }
+  },
+  {
+    "model": "menu.dishingredient",
+    "pk": 16,
+    "fields": {
+      "dish": 1,
+      "ingredient": 16,
+      "amount": 1.0,
+      "unit": "克"
+    }
+  },
+  {
+    "model": "menu.dishingredient",
+    "pk": 17,
+    "fields": {
+      "dish": 1,
+      "ingredient": 17,
+      "amount": 30.0,
+      "unit": "克"
+    }
+  },
+  {
+    "model": "menu.ingredient_allergens",
+    "pk": 1,
+    "fields": {
+      "ingredient": 2,
+      "allergen": 1
+    }
+  },
+  {
+    "model": "menu.ingredient_allergens",
+    "pk": 2,
+    "fields": {
+      "ingredient": 7,
+      "allergen": 1
+    }
+  },
+  {
+    "model": "menu.ingredient_allergens",
+    "pk": 3,
+    "fields": {
+      "ingredient": 9,
+      "allergen": 2
+    }
+  },
+  {
+    "model": "menu.ingredient_allergens",
+    "pk": 4,
+    "fields": {
+      "ingredient": 14,
+      "allergen": 3
+    }
+  },
+  {
+    "model": "menu.ingredient_allergens",
+    "pk": 5,
+    "fields": {
+      "ingredient": 14,
+      "allergen": 4
+    }
+  }
+]
